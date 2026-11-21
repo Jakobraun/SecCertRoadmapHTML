@@ -14,8 +14,8 @@ import { dirname, resolve } from "node:path";
 const root=resolve(dirname(fileURLToPath(import.meta.url)),"..");
 const read=path=>readFileSync(resolve(root,path),"utf8");
 const template=read("src/roadmap-template.html");
-const css=read("assets/roadmap.css").trimEnd();
-const js=read("assets/roadmap.js").trimEnd();
+const css=read("assets/roadmap.css");
+const js=read("assets/roadmap.js");
 const data=JSON.parse(read("data/certifications.json"));
 
 if(!Array.isArray(data.certifications)||data.certifications.length===0)
