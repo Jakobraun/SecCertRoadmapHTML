@@ -901,6 +901,14 @@
     .certbg .redsubdomain2,
     .certbg .redsubdomain5 { background-color: #e1e4e9; }
     /* More compact domain headings, more legible subcategory labels. */
+    /* Border-only adjustment: extend the network domain to the left.
+       Its right boundary and every foreground tile remain unchanged. */
+    .certbg .networkcontainer {
+      margin-left: -.8vmax;
+      width: calc(100% + .8vmax);
+      box-sizing: border-box;
+    }
+
     .certbg .domaintitle {
       font-size: .72vmax;
       line-height: 1.06;
@@ -1087,12 +1095,12 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
                     <div class="spacer"></div>
                     <!-- Row 3 -->
                     <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
                     <a class="networkitem2" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html" tooltiptext="Cisco Certified Implementation Expert - Security
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-002">CCIE Sec</a>
-                    <div class="spacer"></div>
-                    <div class="spacer"></div>
                     <div class="spacer5"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -1121,12 +1129,12 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
                     <div class="spacer"></div>
                     <!-- Row 4 -->
                     <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
                     <a class="networkitem2" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security-v2.html" tooltipleft="Cisco Certified Internetwork Expert - Enterprise Infrastructure
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-006">CCIE Ent</a>
-                    <div class="spacer"></div>
-                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -2231,7 +2239,6 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank" style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-222">MRE</a>
-                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <!-- Row 17 -->
                     <div class="spacer"></div>
@@ -3365,7 +3372,6 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-469">KLCP</a>
-                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
