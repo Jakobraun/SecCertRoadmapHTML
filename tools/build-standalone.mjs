@@ -129,6 +129,12 @@ function buildOriginal(source, dataset) {
     .certbg .redsubdomain2,
     .certbg .redsubdomain5 { background-color: #f2f3f5; }
 
+    /* Original tile border colors encoded category; use one neutral outline instead.
+       Fill and text color remain exclusively tied to the credibility score. */
+    .certcontainer a[data-credential-id] {
+      border-color: #aeb4bd;
+    }
+
     /* Difficulty labels are vertically centered in the full height of each band. */
     .difficulty-axis {
       position: absolute;
