@@ -9,7 +9,15 @@ const anchor=/<a\s+class="([^"]+)"([\s\S]*?)>([\s\S]*?)<\/a>/g;
 const originalAnchors=[...orig.matchAll(anchor)],renderedAnchors=[...html.matchAll(anchor)];
 assert.equal(originalAnchors.length,482,"Original anchor inventory changed");
 assert.equal(renderedAnchors.length,482,"Original grid tiles lost or added");
-assert(originalAnchors.every((m,i)=>m[1]===renderedAnchors[i][1]),"Original tile class/span order changed");
+assert(originalAnchors.every((m,i)=>m[1]===renderedAnchors[i][1].replace(" audit-two-line","")),"Original tile class/span order changed");
+const longTiles=renderedAnchors.filter(m=>m[1].includes("audit-two-line"));
+assert.equal(longTiles.length,10,"Expected 10 targeted long-label tiles");
+for(const label of ["PECB 27005RM","PECB 27032CM"]){
+  assert(longTiles.some(m=>m[3].replace(/<[^>]*>/g," ").trim().replace(/\\s+/g," ")===label),
+    "Two-line label missing: "+label);
+}
+assert(html.includes(".certcontainer a.audit-two-line > .audit-label-tail") && html.includes("font-size: .43vmax;"),
+  "Small second-line font CSS missing");
 assert.equal(canon.length,487,"Canonical record total changed");
 assert.equal(new Set(canon.map(x=>x.id)).size,487);
 assert.equal((html.match(/class="tier-break"/g)||[]).length,3);
