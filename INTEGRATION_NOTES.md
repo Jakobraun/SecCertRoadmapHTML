@@ -69,3 +69,7 @@ These figures are a snapshot; the Google Sheet is authoritative for continuing r
 - Increase foreground top offset from `4.8vmax` to `5.15vmax`, adding clearance between the Exploitation subtitle and the first OSEE tile.
 - Preserve each original row position by replacing row-based rotated difficulty labels with equal-width spacer cells. Render an absolutely positioned four-band left-side axis that exactly follows the four vertical row groups: 6 / 7 / 8 / 6 rows, separated by the existing three narrow breaks. Each difficulty label is centered within its whole band.
 - All modifications are in the generated standalone `index.html` and reproducible via `tools/build-standalone.mjs`.
+
+## Tile border refinement
+
+The original source CSS assigned category-colored borders to credential tiles. All audit-edition credential tiles now override those inherited colors with the same neutral gray (`#aeb4bd`); only tile fills and contrasting text indicate credibility. Original border thickness, tile widths, and domain grouping remain unchanged.
