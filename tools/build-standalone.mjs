@@ -70,9 +70,9 @@ function buildOriginal(source, dataset) {
    if(!s.includes(label))throw Error("Missing row marker "+startRow);
    s=s.replace(label,'<div class="tier-break" aria-hidden="true"></div>\r\n                    '+label);
  }
- const row10='<!-- Row 10 -->\r\n                    <div class="spacer"></div>';
- if(!s.includes(row10))throw Error("Missing original row 10 left spacer");
- s=s.replace(row10,'<!-- Row 10 -->\r\n                    <div class="skilllevelitem"><span style="color:var(--orangedk)">Advanced</span></div>');
+ const row10=/(<!-- Row 10 -->)(\\r?\\n\\s*)<div class="spacer"><\\/div>/;
+ if(!row10.test(s))throw Error("Missing original row 10 left spacer");
+ s=s.replace(row10,'$1$2<div class="skilllevelitem"><span style="color:var(--orangedk)">Advanced</span></div>');
  s=s.replace(/(<div class="skilllevelitem"><span style="color:var\(--greendk\)">)Beginner(<\/span><\/div>)/,'$1Foundation$2');
  // Retain all domain and subcategory display styles; override only foreground tile fill and tier gap sizing.
  const css=`
