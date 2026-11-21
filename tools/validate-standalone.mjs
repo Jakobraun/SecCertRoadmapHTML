@@ -55,7 +55,7 @@ assert.equal((html.match(/class="difficulty-band difficulty-/g)||[]).length,4,"F
 assert.equal((html.match(/class="skilllevelitem"/g)||[]).length,0,"Old row-positioned difficulty labels must be replaced");
 for(const [label,row] of [["expert","1 / span 6"],["advanced","8 / span 7"],["intermediate","16 / span 8"],["foundation","25 / span 6"]])
   assert(html.includes(".difficulty-axis .difficulty-"+label+" { grid-row: "+row+"; }"),"Wrong difficulty band placement: "+label);
-assert(html.includes(".certcontainer { top: 5.15vmax; }"),"Top title clearance missing");
+assert(html.includes(".certcontainer { top: 5.55vmax; }"),"Top title clearance missing");
 assert(html.includes(".certbg .domaintitle,") && html.includes("color: #39424c !important;"),"Neutral headings missing");
 assert(html.includes(".certbg .engsubdomain1,") && html.includes("background-color: #e1e4e9;"),"Neutral subdomain fill missing");
 assert(html.includes(".certbg .networkcontainer,") && html.includes("border-color: #b8bdc5;"),"Neutral domain outlines missing");
