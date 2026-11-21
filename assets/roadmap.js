@@ -120,26 +120,31 @@ function filtered(){
  });
 }
 /**
- * Each certification title stays on one line. Reset to the standard font size,
- * then shrink ONLY labels whose rendered text exceeds their actual tile width.
- * scrollWidth measures the entire unwrapped label with the browser's real font.
+ * Match the original roadmap's regular text weight and keep labels readable.
+ * Reduce the type slightly only where necessary, never below 9px.
+ * For unavoidable overflow, show an ellipsis rather than unreadable 1–3px text.
+ * Full titles remain accessible through the native tooltip and details panel.
  */
 function fitTileLabels(){
   const labels=el("roadmap").querySelectorAll(".tile .abbr");
   for(const label of labels){
     label.style.fontSize="";
-    const available=label.clientWidth-1;
-    if(available<=0)continue;
+    label.classList.remove("label-truncated");
+    const available=label.clientWidth-2;
+    if(available<=0 || label.scrollWidth<=available)continue;
+    const base=parseFloat(getComputedStyle(label).fontSize);
+    const min=9;
     const natural=label.scrollWidth;
-    if(natural<=available)continue;
-    let size=parseFloat(getComputedStyle(label).fontSize)*available/natural*0.99;
-    size=Math.max(1,size);
-    label.style.fontSize=size.toFixed(2)+"px";
-    // Fractional widths, font kerning and CSS rounding can leave a small overhang.
-    for(let attempt=0;attempt<36 && label.scrollWidth>available && size>1;attempt++){
-      size=Math.max(1,size*0.96);
-      label.style.fontSize=size.toFixed(2)+"px";
+    const desired=Math.max(min,Math.min(base,base*available/natural*0.985));
+    label.style.fontSize=desired.toFixed(2)+"px";
+    if(label.scrollWidth>available && desired>min){
+      let size=desired;
+      for(let attempt=0;attempt<12 && label.scrollWidth>available && size>min;attempt++){
+        size=Math.max(min,size-0.2);
+        label.style.fontSize=size.toFixed(2)+"px";
+      }
     }
+    if(label.scrollWidth>available)label.classList.add("label-truncated");
   }
 }
 function fitViewport(){
@@ -221,9 +226,16 @@ function setupFilters(){
 function closeDetails(){el("details").hidden=true;if(state.lastFocus?.isConnected)state.lastFocus.focus();}
 async function init(){
  try{
-   const response=await fetch("./data/certifications.json",{cache:"no-store"});
-   if(!response.ok)throw new Error("Cannot load data/certifications.json (HTTP "+response.status+")");
-   const data=await response.json();
+   const embedded=document.getElementById("roadmap-data");
+   let data;
+   if(embedded){
+     data=JSON.parse(embedded.textContent);
+   }else{
+     // Development fallback for pages intentionally using the modular JSON.
+     const response=await fetch("./data/certifications.json",{cache:"no-store"});
+     if(!response.ok)throw new Error("Cannot load data/certifications.json (HTTP "+response.status+")");
+     data=await response.json();
+   }
    if(!Array.isArray(data.certifications)||!data.certifications.length)throw new Error("Missing canonical certification array");
    const seen=new Set();for(const c of data.certifications){
      if(!c.id||seen.has(c.id))throw new Error("Missing or duplicate canonical ID: "+c.id);seen.add(c.id);
@@ -235,7 +247,7 @@ async function init(){
  }catch(error){
    el("roadmap").replaceChildren();
    el("error").hidden=false;
-   el("error").textContent=error.message+". If opened via file://, serve this repository using a local HTTP server (python -m http.server).";
+   el("error").textContent=error.message+". Open the self-contained index.html or inspect the data integrity.";
  }
 }
 window.addEventListener("resize",()=>{if(state.records.length)fitViewport();});
