@@ -30,13 +30,16 @@ The JSON is a **snapshot** of the audit, not a live Google Sheets connection. Fu
 
 ## Preview
 
-At the repository root:
+At the repository root, **open `index.html` directly** in your browser. The generated page embeds all styles, JavaScript, and certification data and runs without a server, including over `file://`.
+
+After changing any of the source files, regenerate the standalone page:
 
 ```sh
-python -m http.server 8000
+node tools/build-standalone.mjs
+node tools/validate-standalone.mjs
 ```
 
-Open http://localhost:8000/ . A local HTTP server is required because browsers commonly block `fetch()` from `file://`. This page uses no external JavaScript dependencies.
+The source files remain in `assets/` and `data/` for maintainability; the standalone `index.html` needs none of them to run.
 
 Run the JSON integrity check:
 
@@ -78,11 +81,18 @@ Review feedback is incorporated on this branch:
 - Final publication must wait until status and minimum full-pathway pricing for every active displayed credential are reviewed, documented, and reflected in both the master Sheet and JSON. Entries not independently verified stay marked unverified and must not be represented as confirmed active/current.
 - Do not merge this draft pull request just because the UI code is structurally functional; this is a **data audit and browser QA hold**.
 
-To update the local preview from this branch:
+To update the local preview:
 
 ```sh
-git pull origin feature/audit-driven-roadmap-v1
-python3 -m http.server 8000
+git pull --ff-only origin feature/audit-driven-roadmap-v1
+open index.html
 ```
 
-Reload `http://localhost:8000/` with the browser cache bypassed. The page's JSON is fetched with `cache: "no-store"`.
+Refresh the file tab after pulling. A Python server is no longer needed. The generated page is fully self-contained. If you edit a source asset, rerun `node tools/build-standalone.mjs` to rebuild `index.html`.
+
+## Revision 3 — Portable single-file preview and legibility correction
+
+- `index.html` includes all CSS, JavaScript and the entire canonical data snapshot. **No `python -m http.server`, HTTP fetch, internet connection or adjacent file is required to open the chart locally.**
+- Editable sources remain in `src/roadmap-template.html`, `assets/roadmap.css`, `assets/roadmap.js`, and `data/certifications.json`. After any source change, run `node tools/build-standalone.mjs` to synchronize the generated HTML. Do not make lasting edits to the generated file without updating its source.
+- Removed sub-9px font shrinking introduced by the earlier update. Labels retain normal weight and can shrink only to 9px; if a label is still too long at 9px, its line is truncated with an ellipsis and remains fully accessible via its hover title and details.
+- To open on macOS: `open index.html`. No terminal process needs to remain running.
