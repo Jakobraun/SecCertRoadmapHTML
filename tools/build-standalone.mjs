@@ -76,32 +76,6 @@ function buildOriginal(source, dataset) {
  });
  if(unmatched.length)throw Error("Unmatched source tiles: "+unmatched.join(", "));
 
- // Repair pre-existing source-grid alignment defects within the Network domain.
- // CCIE Sec and CCIE Ent were preceded by three empty cells, pushing a span-3
- // tile into the IAM gap; moving two of those blanks AFTER each tile places
- // the credential in network columns 2-4 without moving any later domains.
- for(const row of [3,4]){
-   const start=s.indexOf('<!-- Row '+row+' -->');
-   const end=s.indexOf('<!-- Row '+(row+1)+' -->',start);
-   if(start<0||end<0)throw Error("Original network row marker missing: "+row);
-   let part=s.slice(start,end);
-   const prefix=/(<!-- Row \d+ -->)(\r?\n\s*)<div class="spacer"><\/div>(\r?\n\s*)<div class="spacer"><\/div>(\r?\n\s*)<div class="spacer"><\/div>/;
-   if(!prefix.test(part))throw Error("Network CCIE row prefix changed: "+row);
-   part=part.replace(prefix,'$1$2<div class="spacer"></div>');
-   const anchor=/(<a class="networkitem2"[\s\S]*?<\/a>)/;
-   if(!anchor.test(part))throw Error("Network CCIE wide tile missing: "+row);
-   part=part.replace(anchor,'$1\r\n                    <div class="spacer"></div>\r\n                    <div class="spacer"></div>');
-   s=s.slice(0,start)+part+s.slice(end);
- }
- // Rows 16 and 26 in the original contain only 46/47 grid units.
- // Finish each row explicitly so subsequent network tiles start at column 2,
- // not the difficulty scale column 1.
- for(const nextRow of [17,27]){
-   const marker='<!-- Row '+nextRow+' -->';
-   if(!s.includes(marker))throw Error("Missing expected row boundary "+nextRow);
-   s=s.replace(marker,'<div class="spacer"></div>\r\n                    '+marker);
- }
-
  // Keep the original domain headers, subdomain containers and all tile grid placements.
  // The only structural insertions are three fractional-height rows separating difficulty tiers.
  const breaks=[7,14,22];
@@ -169,6 +143,14 @@ function buildOriginal(source, dataset) {
     .certbg .redsubdomain2,
     .certbg .redsubdomain5 { background-color: #e1e4e9; }
     /* More compact domain headings, more legible subcategory labels. */
+    /* Border-only adjustment: extend the network domain to the left.
+       Its right boundary and every foreground tile remain unchanged. */
+    .certbg .networkcontainer {
+      margin-left: -.8vmax;
+      width: calc(100% + .8vmax);
+      box-sizing: border-box;
+    }
+
     .certbg .domaintitle {
       font-size: .72vmax;
       line-height: 1.06;
