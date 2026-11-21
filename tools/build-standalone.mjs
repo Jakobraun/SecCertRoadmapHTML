@@ -119,7 +119,7 @@ function buildOriginal(source, dataset) {
     #interactive { display:block !important; }
  
     /* Layout refinement: separation below original subtitle row. */
-    .certcontainer { top: 5.15vmax; }
+    .certcontainer { top: 5.55vmax; }
 
     /* Neutral domain/subdomain presentation. Tile credibility fills remain untouched. */
     .certbg .domaintitle,
