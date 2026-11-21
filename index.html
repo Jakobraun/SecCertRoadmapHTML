@@ -907,6 +907,32 @@
       border-color: #aeb4bd;
     }
 
+    /* Preserve original tile dimensions; reduce only long second-line text. */
+    .certcontainer a.audit-two-line {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: max-content max-content;
+      justify-items: center;
+      align-content: center;
+      row-gap: 0;
+      white-space: nowrap;
+      line-height: 1;
+    }
+    .certcontainer a.audit-two-line > .audit-label-head {
+      display: block;
+      min-width: 0;
+      max-width: 100%;
+      font-size: 1em;
+      white-space: nowrap;
+    }
+    .certcontainer a.audit-two-line > .audit-label-tail {
+      display: block;
+      min-width: 0;
+      max-width: 100%;
+      font-size: .43vmax;
+      letter-spacing: -.01vmax;
+      white-space: nowrap;
+    }
+
     /* Difficulty labels are vertically centered in the full height of each band. */
     .difficulty-axis {
       position: absolute;
@@ -1442,10 +1468,10 @@ Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank" style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-063">MRT</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <a class="redopsitem1" href="hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester" tooltiptext="CREST Certified Infrastructure Tester
+                    <a class="redopsitem1 audit-two-line" href="hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester" tooltiptext="CREST Certified Infrastructure Tester
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-064">CREST CCTINF</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-064"><span class="audit-label-head">CREST</span><span class="audit-label-tail">CCTINF</span></a>
                     <a class="redopsitem1" href="https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert" tooltiptext="Hack the Box Certified Web Exploitation Expert
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
@@ -1991,10 +2017,10 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-177">EXIN 27001E</a>
-                    <a class="mgmtitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-27005-lead-risk-manager" tooltiptext="PECB ISO/IEC 27005 Lead Risk Manager
+                    <a class="mgmtitem1 audit-two-line" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-27005-lead-risk-manager" tooltiptext="PECB ISO/IEC 27005 Lead Risk Manager
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-178">PECB 27005LM</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-178"><span class="audit-label-head">PECB</span><span class="audit-label-tail">27005LM</span></a>
                     <a class="mgmtitem1" href="https://drii.org/certification/ccrp" tooltiptext="DRI Certified Cyber Resilience Professional
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
@@ -2007,10 +2033,10 @@ Minimum verified acquisition: $999" tabindex="0" target="_blank"  style="backgro
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" target="_blank" style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-181">CTPRA</a> 
-                    <a class="testitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor" tooltiptext="PECB ISO/IEC 27001 Lead Auditor
+                    <a class="testitem1 audit-two-line" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor" tooltiptext="PECB ISO/IEC 27001 Lead Auditor
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-182">PECB 27001LA</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-182"><span class="audit-label-head">PECB</span><span class="audit-label-tail">27001LA</span></a>
                     <div class="spacer"></div>
                     <a class="softwareitem1" href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html" tooltiptext="Cisco DevNet Professional
 Credibility: not yet assessed
@@ -2125,10 +2151,10 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-207">APMG 27001P</a>
-                    <a class="mgmtitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer" tooltiptext="PECB ISO/IEC 27001 Lead Implementer
+                    <a class="mgmtitem1 audit-two-line" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer" tooltiptext="PECB ISO/IEC 27001 Lead Implementer
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-208">PECB 27001LI</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-208"><span class="audit-label-head">PECB</span><span class="audit-label-tail">27001LI</span></a>
                     <div class=""spacer"></div>
                     <a class="testitem2" href="https://www.mile2.com/is20_outline/" tooltiptext="Mile2 IS20 Controls
 Credibility: not yet assessed
@@ -2176,10 +2202,10 @@ Acquisition price: not verified" tabindex="0" target="_blank" style="background-
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-219">CPENT</a>
-                    <a class="redopsitem1" href="https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/" tooltiptext="CREST Certified Web Application Tester
+                    <a class="redopsitem1 audit-two-line" href="https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/" tooltiptext="CREST Certified Web Application Tester
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-220">CREST CCTAPP</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-220"><span class="audit-label-head">CREST</span><span class="audit-label-tail">CCTAPP</span></a>
                     <div class="spacer"></div>
                     <a class="redopsitem1" href="https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/" tooltiptext="Hack the Box Certified Penetration Testing Specialist
 Credibility: not yet assessed
@@ -2327,10 +2353,10 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-251">EXIN 27001P</a>
-                    <a class="mgmtitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-lead-cyber-security-manager" tooltiptext="PECB ISO/IEC 27032 Lead Cybersecurity Manager
+                    <a class="mgmtitem1 audit-two-line" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-lead-cyber-security-manager" tooltiptext="PECB ISO/IEC 27032 Lead Cybersecurity Manager
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-252">PECB 27032CM</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-252"><span class="audit-label-head">PECB</span><span class="audit-label-tail">27032CM</span></a>
                     <a class="mgmtitem1" href="https://www.mile2.com/chissp_outline/" tooltiptext="Mile2 Certified Healthcare Information Systems Security Practitioner
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
@@ -2463,10 +2489,10 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-282">CCRMP</a>
-                    <a class="mgmtitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager" tooltiptext="PECB ISO/IEC 27005 Risk Manager
+                    <a class="mgmtitem1 audit-two-line" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager" tooltiptext="PECB ISO/IEC 27005 Risk Manager
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-283">PECB 27005RM</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-283"><span class="audit-label-head">PECB</span><span class="audit-label-tail">27005RM</span></a>
                     <a class="mgmtitem1" href="https://www.softwarecertifications.org/csba/" tooltiptext="QAI Certified Software Business Analyst
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
@@ -2886,14 +2912,14 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Active
 Minimum verified acquisition: $399" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-377">GFACT</a>
-                    <a class="redopsitem1" href="https://secops.group/product/certified-mobile-pentester-cmpen-android/" tooltiptext="The SecOps Group Certified Mobile Pentester - Android
+                    <a class="redopsitem1 audit-two-line" href="https://secops.group/product/certified-mobile-pentester-cmpen-android/" tooltiptext="The SecOps Group Certified Mobile Pentester - Android
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-378">SOG CMPen And</a>
-                    <a class="redopsitem1" href="https://secops.group/product/certified-mobile-pentester-cmpen-ios/" tooltiptext="The SecOps Group Certified Mobile Pentester - iOS
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-378"><span class="audit-label-head">SOG</span><span class="audit-label-tail">CMPen And</span></a>
+                    <a class="redopsitem1 audit-two-line" href="https://secops.group/product/certified-mobile-pentester-cmpen-ios/" tooltiptext="The SecOps Group Certified Mobile Pentester - iOS
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-379">SOG CMPen iOS</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-379"><span class="audit-label-head">SOG</span><span class="audit-label-tail">CMPen iOS</span></a>
                     <a class="redopsitem1" href="https://0xdarkvortex.dev/training-programs/malware-on-steroids/#certification" tooltiptext="Dark Vortex Malware on Steroids
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
@@ -3029,10 +3055,10 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-407">Google ACE</a>
-                    <a class="engineeritem1" href="https://secops.group/product/certified-cloud-security-practitioner-aws-ccsp-aws/" tooltiptext="SecOps Group Certified Cloud Security Practitioner - AWS
+                    <a class="engineeritem1 audit-two-line" href="https://secops.group/product/certified-cloud-security-practitioner-aws-ccsp-aws/" tooltiptext="SecOps Group Certified Cloud Security Practitioner - AWS
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
-Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-408">SOG CCSP-AWS</a>
+Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-408"><span class="audit-label-head">SOG</span><span class="audit-label-tail">CCSP-AWS</span></a>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://training.linuxfoundation.org/certification/certified-it-associate/" tooltiptext="Linux Foundation Certified IT Associate
 Credibility: not yet assessed
