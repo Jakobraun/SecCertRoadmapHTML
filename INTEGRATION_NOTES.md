@@ -73,3 +73,7 @@ These figures are a snapshot; the Google Sheet is authoritative for continuing r
 ## Tile border refinement
 
 The original source CSS assigned category-colored borders to credential tiles. All audit-edition credential tiles now override those inherited colors with the same neutral gray (`#aeb4bd`); only tile fills and contrasting text indicate credibility. Original border thickness, tile widths, and domain grouping remain unchanged.
+
+## Long certification labels
+
+Labels too long for an original single-width tile (10 identified, including PECB 27005RM and PECB 27032CM) display as two centered lines. Only the second line is reduced to `0.43vmax` (with slight negative tracking); the first line retains the original font size. Tile positions, spans, domain mappings, colors and tooltip metadata remain unchanged. The build regenerates this formatting from the original source, rather than editing individual tile widths.
