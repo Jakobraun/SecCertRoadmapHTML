@@ -1,19 +1,18 @@
 "use strict";
 /* Canonical data is produced from the Google Sheets master audit. This file deliberately
  * contains no certification inventory or domain-specific credibility colors. */
-const DOMAINS = [
-  "Communication and Network Security",
-  "IAM",
-  "Security Architecture and Engineering",
-  "Asset Security",
-  "Security and Risk Management",
-  "Security Assessment and Testing",
-  "Software Security",
-  "Security Operations",
-  "Penetration Testing / Exploitation",
-  "AI / ML / LLM Security",
-  "Cloud/SysOps"
+const DOMAIN_UNITS = [
+  ["Communication and Network Security",3],
+  ["IAM",1],
+  ["Security Architecture and Engineering",7],
+  ["Asset Security",2],
+  ["Security and Risk Management",9],
+  ["Security Assessment and Testing",3],
+  ["Software Security",1],
+  ["Security Operations",13],
+  ["Penetration Testing / Exploitation",4]
 ];
+const DOMAINS = DOMAIN_UNITS.map(x=>x[0]);
 const TIERS = [{id:4,title:"Expert",subtitle:"Specialist mastery"},
                {id:3,title:"Advanced",subtitle:"Complex design & analysis"},
                {id:2,title:"Intermediate",subtitle:"Independent operations"},
@@ -94,7 +93,7 @@ function createTile(c){
   const price=money(c.priceUSD);
   button.append(textNode("span",c.label,"abbr"));
   if(price)button.append(textNode("span",price,"cost"));
-  if(domainsFor(c).length>1)button.append(textNode("span","+"+(domainsFor(c).length-1),"multi"));
+  // Domain coverage is shown in details; compact tiles keep the original visual simplicity.
   const rating=c.credibilityScore===null?"unrated":"credibility "+c.credibilityScore+"/100, provisional";
   button.title=c.name+" | "+rating+" | "+(price||"current price unverified")+" | "+c.status;
   button.setAttribute("aria-label",c.label+": "+c.name+". Proficiency "+c.proficiency+". "+rating+".");
@@ -106,6 +105,7 @@ function filtered(){
        cred=el("credibility-filter").value,archived=el("show-archived").checked;
  return state.records.filter(c=>{
    if(!archived&&isArchived(c))return false;
+   if(!domain&&c.plannedOnly)return false;
    if(domain&&!domainsFor(c).includes(domain))return false;
    const band=credibilityBand(c.credibilityScore);
    if(cred==="rated"&&band==="unrated")return false;
@@ -121,29 +121,39 @@ function filtered(){
 }
 function render(){
   if(!state.records.length)return;
-  const subset=filtered(),domain=el("domain-filter").value;
-  const cols=domain?[domain]:[...DOMAINS,...new Set(state.records.map(c=>domainName(c.primaryDomain)))].filter((x,i,a)=>a.indexOf(x)===i);
-  const chart=el("roadmap");chart.replaceChildren();chart.style.setProperty("--domain-count",cols.length);
+  const subset=filtered(), selected=el("domain-filter").value;
+  // Default reproduces the nine populated original domains. Secondary and planned
+  // domains remain accessible through filtering, not empty permanent columns.
+  const domains=selected?[[selected,Math.max(4,DOMAIN_UNITS.find(x=>x[0]===selected)?.[1]||6)]]:DOMAIN_UNITS;
+  const units=domains.reduce((n,d)=>n+d[1],0);
+  const chart=el("roadmap");chart.replaceChildren();
+  chart.style.setProperty("--domain-count",units);
   chart.append(textNode("div","PROFICIENCY","domain-heading axis-title"));
-  for(const name of cols)chart.append(textNode("div",name,"domain-heading"));
-  const order=(a,b)=>(Number(a.sourceIds?.[0]?.replace(/\D/g,""))||9999)-(Number(b.sourceIds?.[0]?.replace(/\D/g,""))||9999);
+  for(const [name,cols] of domains){
+    const heading=textNode("div",name,"domain-heading");heading.style.gridColumn="span "+cols;chart.append(heading);
+  }
+  const order=(a,b)=>(Number(a.sourceIds?.[0]?.replace(/\\D/g,""))||9999)-(Number(b.sourceIds?.[0]?.replace(/\\D/g,""))||9999);
   for(const tier of TIERS){
     const label=document.createElement("div");label.className="level-label";
-    label.append(textNode("span",tier.title),textNode("small",String(tier.id)+" / 4"));chart.append(label);
-    for(const col of cols){
+    label.append(textNode("span",tier.title),textNode("small",tier.id+" / 4"));chart.append(label);
+    for(const [name,cols] of domains){
       const cell=document.createElement("div");cell.className="domain-cell";
-      const matches=subset.filter(c=>c.proficiency===tier.id&&(domain?domainsFor(c).includes(col):domainName(c.primaryDomain)===col)).sort(order);
+      cell.style.gridColumn="span "+cols;cell.style.setProperty("--cell-cols",cols);
+      const matches=subset.filter(c=>c.proficiency===tier.id && (selected?domainsFor(c).includes(name):domainName(c.primaryDomain)===name)).sort(order);
       if(!matches.length)cell.append(textNode("span","—","empty"));
-      else{const fragment=document.createDocumentFragment();for(const c of matches)fragment.append(createTile(c));cell.append(fragment);}
+      else{const frag=document.createDocumentFragment();
+        for(const c of matches){const tile=createTile(c);tile.style.gridColumn="span "+Math.min(cols,Math.max(1,c.originalTileSpan||1));frag.append(tile);}
+        cell.append(frag);
+      }
       chart.append(cell);
     }
   }
-  el("count-visible").textContent=subset.length.toLocaleString()+" unique credentials displayed";
-  el("count-total").textContent=state.records.length+" canonical records ("+state.records.filter(isArchived).length+" archived)";
+  el("count-visible").textContent=subset.filter(c=>selected||DOMAINS.includes(domainName(c.primaryDomain))).length.toLocaleString()+" credentials on roadmap";
+  el("count-total").textContent=state.records.length+" canonical / "+state.records.filter(isArchived).length+" archived";
   el("count-rated").textContent=subset.filter(c=>credibilityBand(c.credibilityScore)!=="unrated").length+" provisionally rated";
 }
 function setupFilters(){
- const values=[...new Set(state.records.flatMap(domainsFor))].sort((a,b)=>a.localeCompare(b));
+ const values=[...new Set(state.records.filter(c=>!c.plannedOnly).flatMap(domainsFor))].sort((a,b)=>a.localeCompare(b));
  const select=el("domain-filter");
  for(const v of values){const option=document.createElement("option");option.value=v;option.textContent=v;select.append(option);}
  for(const id of ["search","domain-filter","credibility-filter","show-archived"]){
