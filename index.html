@@ -876,6 +876,66 @@
     #static { display:none !important; }
     #interactive { display:block !important; }
  
+    
+    /* Layout refinement: separation below original subtitle row. */
+    .certcontainer { top: 5.15vmax; }
+
+    /* Neutral domain/subdomain presentation. Tile credibility fills remain untouched. */
+    .certbg .domaintitle,
+    .certbg .subtitle1,
+    .certbg .subtitle2,
+    .certbg .subtitle3,
+    .certbg .subtitle4,
+    .certbg .subtitle5 { color: #39424c !important; }
+    .certbg .networkcontainer,
+    .certbg .iamcontainer,
+    .certbg .engineercontainer,
+    .certbg .assetcontainer,
+    .certbg .mgmtcontainer,
+    .certbg .testingcontainer,
+    .certbg .softwarecontainer,
+    .certbg .operationscontainer { border-color: #b8bdc5; }
+    .certbg .engsubdomain1,
+    .certbg .engsubdomain4,
+    .certbg .mgmtsubdomain4,
+    .certbg .bluesubdomain2,
+    .certbg .redsubdomain2,
+    .certbg .redsubdomain5 { background-color: #f2f3f5; }
+
+    /* Difficulty labels are vertically centered in the full height of each band. */
+    .difficulty-axis {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1.7vmax;
+      display: grid;
+      grid-template-rows:
+        repeat(6, 1.455vmax) .4vmax
+        repeat(7, 1.455vmax) .4vmax
+        repeat(8, 1.455vmax) .4vmax
+        repeat(6, 1.455vmax);
+      row-gap: .1vmax;
+      font-size: .8vmax;
+      font-weight: 600;
+      color: #39424c;
+      pointer-events: none;
+      z-index: 1;
+    }
+    .difficulty-axis .difficulty-band {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .difficulty-axis .difficulty-band span {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      white-space: nowrap;
+    }
+    .difficulty-axis .difficulty-expert { grid-row: 1 / span 6; }
+    .difficulty-axis .difficulty-advanced { grid-row: 8 / span 7; }
+    .difficulty-axis .difficulty-intermediate { grid-row: 16 / span 8; }
+    .difficulty-axis .difficulty-foundation { grid-row: 25 / span 6; }
+
     </style>
     
     <div id="static" hidden></div>
@@ -942,6 +1002,12 @@
             </div>
             <!-- Begin Foreground Grid -->
             <div class="certcontainer">
+            <div class="difficulty-axis" aria-label="Difficulty levels">
+                <div class="difficulty-band difficulty-expert"><span>Expert</span></div>
+                <div class="difficulty-band difficulty-advanced"><span>Advanced</span></div>
+                <div class="difficulty-band difficulty-intermediate"><span>Intermediate</span></div>
+                <div class="difficulty-band difficulty-foundation"><span>Foundation</span></div>
+            </div>
                     <!-- Row 1 (intentionally blank to make room for sub-domain titles)-->
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -1106,7 +1172,7 @@ Lifecycle: Active
 Minimum verified acquisition: $999" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-019">GXPN</a>
                     <div class="spacer"></div>
                     <!-- Row 6 -->
-                    <div class="skilllevelitem"><span style="color:var(--reddk)">Expert</span></div>
+                    <div class="spacer"></div>
                     <div class="spacer5"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -1382,7 +1448,7 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <!-- Row 10 -->
-                    <div class="skilllevelitem"><span style="color:var(--orangedk)">Advanced</span></div>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer5"></div>
                     <div class="spacer"></div>
@@ -2191,7 +2257,7 @@ Lifecycle: Unverified (legacy inventory)
 Acquisition price: not verified" tabindex="0" target="_blank"  style="background-color:#111111;color:#ffffff;" data-credential-id="SRC-236">PJMR</a>
                     <div class="spacer"></div>
                     <!-- Row 18 -->
-                    <div class="skilllevelitem"><span style="color:var(--orangedk)">Intermediate</span></div>
+                    <div class="spacer"></div>
                     <a class="networkitem1" href="https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740" tooltipleft="F5 Big-IP Certified Technical Specialist - Access Policy Manager
 Credibility: not yet assessed
 Lifecycle: Unverified (legacy inventory)
@@ -3008,7 +3074,7 @@ Acquisition price: not verified" tabindex="0" target="_blank"  style="background
                     <div class="spacer5"></div>
                     <div class="spacer"></div>
                     <!-- Row 25 -->
-                    <div class="skilllevelitem"><span style="color:var(--greendk)">Foundation</span></div>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="networkitem1" href="https://secops.group/product/certified-network-security-practitioner/" tooltiptext="SecOps Group Certified Network Security Practitioner
 Credibility: not yet assessed
