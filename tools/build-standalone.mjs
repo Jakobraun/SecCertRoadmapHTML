@@ -1,37 +1,107 @@
 #!/usr/bin/env node
-/**
- * Compile the offline-first certification roadmap.
- * No dependencies or web access needed. Node 18+.
- * Edit the HTML template, CSS, JS and JSON source; then run:
- *   node tools/build-standalone.mjs
- *
- * index.html is a generated artifact and works directly with file://.
- */
-import { readFileSync, writeFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
-import { dirname, resolve } from "node:path";
-
+/** Build the offline chart using the unmodified original HTML and the canonical data. */
+import {readFileSync,writeFileSync} from "node:fs";
+import {dirname,resolve} from "node:path";
+import {fileURLToPath} from "node:url";
 const root=resolve(dirname(fileURLToPath(import.meta.url)),"..");
-const read=path=>readFileSync(resolve(root,path),"utf8");
-const template=read("src/roadmap-template.html");
-const css=read("assets/roadmap.css");
-const js=read("assets/roadmap.js");
-const data=JSON.parse(read("data/certifications.json"));
-
-if(!Array.isArray(data.certifications)||data.certifications.length===0)
-  throw new Error("Invalid or empty canonical credential data");
-if(!template.includes("<!-- EMBED_STYLES -->")||!template.includes("<!-- EMBED_DATA_AND_SCRIPT -->"))
-  throw new Error("Roadmap template is missing embed markers");
-if(css.includes("</style>")||js.includes("</script>"))
-  throw new Error("Inline asset has an unsafe closing tag");
-
-// Escape HTML script delimiter characters while preserving parsed JSON values.
-const safeJSON=JSON.stringify(data).replace(/</g,"\\u003c");
-const output=template
-  .replace("<!-- EMBED_STYLES -->","<style>\n"+css+"\n</style>")
-  .replace("  <!-- EMBED_DATA_AND_SCRIPT -->",
-    '  <script id="roadmap-data" type="application/json">'+safeJSON+'</script>\n'+
-    '  <script>\n'+js+'\n  </script>');
-writeFileSync(resolve(root,"index.html"),output,"utf8");
-console.log("Wrote index.html: "+Buffer.byteLength(output,"utf8")+" bytes, "+
-  data.certifications.length+" canonical certifications (self-contained).");
+const read=filename=>readFileSync(resolve(root,filename),"utf8");
+function buildOriginal(source, dataset) {
+ const credentials=dataset.certifications, byLabel=new Map(), byURL=new Map();
+ const normalize=x=>(x||"").replace(/<[^>]*>/g,"").replace(/&amp;/g,"&").trim().toLowerCase();
+ for(const c of credentials){
+  const key=normalize(c.originalLabel||c.label);
+  if(!byLabel.has(key))byLabel.set(key,[]);
+  byLabel.get(key).push(c);
+  if(c.legacyURL){if(!byURL.has(c.legacyURL))byURL.set(c.legacyURL,[]);byURL.get(c.legacyURL).push(c);}
+ }
+ const seen=new Map();
+ const escapeAttr=value=>String(value).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+ const scoreColors=score=> {
+  if(score===null||score===undefined)return ["#111111","#ffffff"];
+  const v=Number(score);
+  if(v>=80)return ["#16803c","#ffffff"];
+  if(v>=65)return ["#9bd66a","#172412"];
+  if(v>=50)return ["#f4d35e","#26210b"];
+  if(v>=35)return ["#e78a40","#23180e"];
+  return ["#b4232f","#ffffff"];
+ };
+ const money=n=>Number.isFinite(n)?"$"+n.toLocaleString("en-US",{maximumFractionDigits:2}):null;
+ const addStyle=(attrs,s)=>{
+  if(/style="[^"]*"/.test(attrs))return attrs.replace(/style="([^"]*)"/,(m,v)=>'style="'+v.trim().replace(/;?$/,";")+s+'"');
+  return attrs+' style="'+s+'"';
+ };
+ let matched=0,unmatched=[],hidden=0,replaced=0,filled=0,dupes=0,rendered=0;
+ let s=source.replace(/<a\s+class="([^"]+)"([\s\S]*?)>([\s\S]*?)<\/a>/g,(match,cls,atts,inner)=>{
+  const originalLabel=normalize(inner),href=(atts.match(/href="([^"]*)"/)||[])[1]||"";
+  const options=byLabel.get(originalLabel)||[];
+  let rec=options.length===1?options[0]:options.find(x=>x.legacyURL===href)||null;
+  if(!rec){const urlCandidates=byURL.get(href)||[];if(urlCandidates.length===1)rec=urlCandidates[0];}
+  if(!rec){unmatched.push(originalLabel);return match;}
+  matched++;
+  const count=seen.get(rec.id)||0;seen.set(rec.id,count+1);
+  const inheritedReplacement=rec.originalLabel==="AZ-500"?"SC-500":rec.originalLabel==="SC-400"?"SC-401":null;
+  if(inheritedReplacement){const successor=credentials.find(x=>x.label===inheritedReplacement);if(successor){rec=successor;inner=inheritedReplacement;replaced++;if(rec.issuerURL&&/https?:\/\//.test(rec.issuerURL))atts=atts.replace(/href="[^"]*"/,'href="'+escapeAttr(rec.issuerURL)+'"');}}
+  else if(rec.originalLabel==="CASP+")inner=inner.replace(/CASP\+/g,"SecurityX");
+  // One canonical CIMP with two original anchors: suppress the secondary visual.
+  const archive=rec.displayOnRoadmap===false || (count>0 && (rec.originalLabel||rec.label)==="CIMP");
+  if(archive){hidden++;atts=addStyle(atts,"visibility:hidden;pointer-events:none;");atts=atts.replace(/tabindex="[^"]*"/,'tabindex="-1"');}
+  else rendered++;
+  let color=scoreColors(rec.credibilityScore);if(rec.credibilityScore!==null)filled++;
+  atts=addStyle(atts,"background-color:"+color[0]+";color:"+color[1]+";");
+  const price=money(rec.priceUSD);
+  const note=[
+   rec.name,
+   (rec.credibilityScore===null?"Credibility: not yet assessed":"Credibility: "+rec.credibilityScore+"/100 (provisional)"),
+   "Lifecycle: "+(rec.status||"Unverified"),
+   price?"Minimum verified acquisition: "+price:"Acquisition price: not verified"
+  ].join("\n");
+  const tooltipName=(atts.match(/\s(tooltip(?:text|right|left))="/)||[])[1]||"tooltiptext";
+  if(/\s(?:tooltiptext|tooltipright|tooltipleft)="[^"]*"/.test(atts))atts=atts.replace(/\s(?:tooltiptext|tooltipright|tooltipleft)="[^"]*"/,' '+tooltipName+'="'+escapeAttr(note)+'"');
+  else atts+=' tooltiptext="'+escapeAttr(note)+'"';
+  atts+=' data-credential-id="'+escapeAttr(rec.id)+'"';
+  return '<a class="'+cls+'"'+atts+'>'+inner+'</a>';
+ });
+ if(unmatched.length)throw Error("Unmatched source tiles: "+unmatched.join(", "));
+ // Keep the original domain headers, subdomain containers and all tile grid placements.
+ // The only structural insertions are three fractional-height rows separating difficulty tiers.
+ const breaks=[7,14,22];
+ for(const startRow of breaks){
+   const label='<!-- Row '+startRow+' -->';
+   if(!s.includes(label))throw Error("Missing row marker "+startRow);
+   s=s.replace(label,'<div class="tier-break" aria-hidden="true"></div>\r\n                    '+label);
+ }
+ const row10='<!-- Row 10 -->\r\n                    <div class="spacer"></div>';
+ if(!s.includes(row10))throw Error("Missing original row 10 left spacer");
+ s=s.replace(row10,'<!-- Row 10 -->\r\n                    <div class="skilllevelitem"><span style="color:var(--orangedk)">Advanced</span></div>');
+ s=s.replace(/(<div class="skilllevelitem"><span style="color:var\(--greendk\)">)Beginner(<\/span><\/div>)/,'$1Foundation$2');
+ // Retain all domain and subcategory display styles; override only foreground tile fill and tier gap sizing.
+ const css=`
+    /* Audit edition: original grid and labels, with four visibly separated levels. */
+    .certcontainer {
+      grid-template-rows:
+        repeat(6, 1.455vmax) .4vmax
+        repeat(7, 1.455vmax) .4vmax
+        repeat(8, 1.455vmax) .4vmax
+        repeat(6, 1.455vmax);
+    }
+    .certcontainer .tier-break {
+      grid-column: 1 / -1;
+      border-top: .07vmax solid #798492;
+      background-color: #f0f2f5;
+      min-width: 0;
+    }
+    /* The 2024 mobile bitmap was an external dependency; show the same actual chart offline. */
+    #static { display:none !important; }
+    #interactive { display:block !important; }
+ `;
+ s=s.replace('</style>',css+'\r\n    </style>');
+ // Avoid external bitmap requests when opened from disk; the interactive chart is the source.
+ s=s.replace(/<div id="static">[\s\S]*?<\/div>/,'<div id="static" hidden></div>');
+ s=s.replace(/<div class="key">481 certifications listed \| July 2024<\/div>/,
+   '<div class="key">'+rendered+' credentials | 2026 audit draft | black = unrated; green to red = credibility</div>');
+ return {html:'<!doctype html>\n<html lang="en">\n<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Security Certification Roadmap</title></head>\n<body>\n'+s+'\n</body>\n</html>\n',
+ stats:{anchors:matched,hidden,replaced,scoredTiles:filled,rendered,sourceRecords:credentials.length}};
+}
+const output=buildOriginal(read("Security-Certification-Roadmap9.html"),JSON.parse(read("data/certifications.json")));
+writeFileSync(resolve(root,"index.html"),output.html,"utf8");
+console.log(JSON.stringify(output.stats,null,2));
