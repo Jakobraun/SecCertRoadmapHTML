@@ -84,3 +84,4 @@ footer p{margin:0}
  .summary .hint,.small-note{display:none}
  .tile .abbr{font-size:8px}
 }
+\n/* Small fonts and narrow tiles follow the original chart: price lives in hover/details, not inside tile. */\n.tile .cost{display:none}\n.tile .abbr{font-size:clamp(9px,.74vw,12px);font-weight:600;line-height:1.04;letter-spacing:-.12px}\n.tile{border-width:1px}\n
