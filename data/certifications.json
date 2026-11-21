@@ -16249,9 +16249,9 @@
       "name": "ISACA Advanced in AI Security Management",
       "status": "Active / issuer listing",
       "displayOnRoadmap": true,
-      "priceUSD": 599,
+      "priceUSD": null,
       "legacyPriceUSD": null,
-      "priceEvidence": "Issuer published/precedent; confirm regional quote",
+      "priceEvidence": "ISACA AAISM exam price quoted $599 nonmember but prior CISM/CISSP prerequisite, membership alternatives and application fees prevent verified lowest all-in cost",
       "renewal": "ISACA CPE and annual maintenance; verify exact AAISM requirement",
       "proficiency": 3,
       "proficiencyEvidence": "Proposed addition",
@@ -16267,7 +16267,7 @@
       "disposition": "Add (high priority)",
       "issuerURL": "https://www.isaca.org/credentialing/aaism",
       "legacyURL": "https://www.isaca.org/credentialing/aaism",
-      "notes": "Requires existing CISSP or CISM; $599 nonmember exam; application fees excluded.",
+      "notes": "Requires existing CISSP or CISM; $599 nonmember exam; application fees excluded. Minimum complete acquisition cost not yet verified; do not display $599 as all-in price.",
       "verifiedAt": "2026-11-21",
       "sourceIds": [
         "NEW-002"
