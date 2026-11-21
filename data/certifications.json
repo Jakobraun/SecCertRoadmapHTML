@@ -57,9 +57,9 @@
       "name": "Cisco Certified Implementation Expert - Security",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 2000,
       "legacyPriceUSD": 2050,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco $400 CCNP security core qualifying exam + $1,600 CCIE Security lab; excludes taxes, travel, training.",
       "renewal": "Not independently verified",
       "proficiency": 4,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -83,7 +83,9 @@
       "originalLabel": "CCIE Sec",
       "originalTileSpan": 3,
       "originalTileClass": "networkitem2",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-003",
@@ -192,9 +194,9 @@
       "name": "Cisco Certified Internetwork Expert - Enterprise Infrastructure",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 2000,
       "legacyPriceUSD": 2050,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco $400 CCNP enterprise core qualifying exam + $1,600 CCIE Enterprise lab; excludes taxes, travel, training.",
       "renewal": "Not independently verified",
       "proficiency": 4,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -218,7 +220,9 @@
       "originalLabel": "CCIE Ent",
       "originalTileSpan": 3,
       "originalTileClass": "networkitem2",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-007",
@@ -260,9 +264,9 @@
       "name": "Red Hat Certified Architect",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 2500,
       "legacyPriceUSD": 3745,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Red Hat RHCA from scratch: $500 RHCSA + $500 RHCE + three $500 specialist exams; track-specific requirements per Red Hat 2026 guide.",
       "renewal": "Not independently verified",
       "proficiency": 4,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -286,7 +290,9 @@
       "originalLabel": "RHCA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://docs.redhat.com/en/documentation/red_hat_learning_subscription/1-latest/html/red_hat_certification_program_guide/index",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-009",
@@ -1005,9 +1011,9 @@
       "name": "Certified Information Systems Security Professional",
       "status": "Active",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 884,
       "legacyPriceUSD": 749,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): ISC2 CISSP exam $749 + mandatory first annual maintenance fee $135; see https://www.isc2.org/Policies-Procedures/AMFs-Overview.",
       "renewal": "3 years; CPE + annual maintenance (issuer policy)",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1030,7 +1036,9 @@
       "recordType": "Existing",
       "originalLabel": "CISSP",
       "originalTileSpan": 1,
-      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "priceEvidenceURL": "https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-031",
@@ -1242,9 +1250,9 @@
       "name": "Cisco Certified Design Expert",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 2050,
       "legacyPriceUSD": 1600,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco CCDE written $450 + practical $1,600; excludes taxes and travel.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1267,7 +1275,9 @@
       "originalLabel": "CCDE",
       "originalTileSpan": 1,
       "originalTileClass": "networkitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-038",
@@ -1275,9 +1285,9 @@
       "name": "Amazon Web Services Certified Solutions Architect - Professional",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 300,
       "legacyPriceUSD": 300,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): AWS Professional examination standard USD fee; training optional.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1301,7 +1311,9 @@
       "originalLabel": "AWS SAP",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://aws.amazon.com/certification/faqs/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-039",
@@ -1309,9 +1321,9 @@
       "name": "Red Hat Certified Engineer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 1000,
       "legacyPriceUSD": 400,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Red Hat RHCE from scratch: $500 RHCSA prerequisite + $500 RHCE qualifying exam.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1335,7 +1347,9 @@
       "originalLabel": "RHCE",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://docs.redhat.com/en/documentation/red_hat_learning_subscription/1-latest/html/red_hat_certification_program_guide/index",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-040",
@@ -1377,9 +1391,9 @@
       "name": "Microsoft Cybersecurity Architect Expert",
       "status": "Active",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 330,
       "legacyPriceUSD": 165,
-      "priceEvidence": "SC-100 exam alone $165; Expert certification requires an additional eligible Associate credential; all-in minimum not verified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft SC-100 $165 + mandatory eligible Associate certification (e.g. SC-200 or SC-300) $165. Full from-scratch path; taxes/discounts excluded.",
       "renewal": "Annual renewal; free Microsoft Learn assessment",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1402,7 +1416,9 @@
       "originalLabel": "SC-100",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-042",
@@ -1780,9 +1796,9 @@
       "name": "Microsoft Azure Solutions Architect Expert",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 330,
       "legacyPriceUSD": 330,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft AZ-305 $165 + required Azure Administrator Associate AZ-104 $165. Full from-scratch path.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1806,7 +1822,9 @@
       "originalLabel": "AZ-305",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-054",
@@ -1915,9 +1933,9 @@
       "name": "Scrum.org Professional Scrum Master III",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 500,
       "legacyPriceUSD": 500,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Scrum.org PSM III assessment password $500. No mandatory training or prior certification included.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -1940,7 +1958,9 @@
       "originalLabel": "PSM III",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.scrum.org/support/where-can-i-purchase-password-attempt-professional-level-assessment",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-058",
@@ -2014,9 +2034,9 @@
       "name": "Mosse Institute Certified Threat Intelligence Analyst Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 595,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Threat Intelligence Analyst certification/training package at USD $595 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -2039,7 +2059,9 @@
       "originalLabel": "MTIA",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-061",
@@ -2116,9 +2138,9 @@
       "name": "Mosse Institute Certified Red Teamer Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Red Teamer certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -2142,7 +2164,9 @@
       "originalLabel": "MRT",
       "originalTileSpan": 1,
       "originalTileClass": "redopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-064",
@@ -2218,9 +2242,9 @@
       "name": "Google Professional Cloud Architect",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 200,
       "legacyPriceUSD": 200,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Google Cloud Professional Cloud Architect standard exam $200; no certification prerequisite.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -2244,7 +2268,9 @@
       "originalLabel": "Google PCSA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://cloud.google.com/learn/certification/cloud-architect",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-067",
@@ -2725,9 +2751,9 @@
       "name": "Cisco Certified Network Professional - Security",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 700,
       "legacyPriceUSD": 1200,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco professional certification: $400 core + $300 concentration; no training requirement priced.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -2750,7 +2776,9 @@
       "originalLabel": "CCNP Sec",
       "originalTileSpan": 1,
       "originalTileClass": "networkitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-082",
@@ -3197,9 +3225,9 @@
       "name": "Scrum Scaled Professional Scrum",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 250,
       "legacyPriceUSD": 250,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Scrum.org SPS assessment password $250; no mandatory course.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -3222,7 +3250,9 @@
       "originalLabel": "Scrum SPS",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.scrum.org/support/where-can-i-purchase-password-attempt-professional-level-assessment",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-096",
@@ -3297,9 +3327,9 @@
       "name": "(ISC)2 Certified in Governance, Risk and Compliance",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 734,
       "legacyPriceUSD": 599,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): ISC2 CGRC exam $599 + mandatory first annual maintenance fee $135; see https://www.isc2.org/Policies-Procedures/AMFs-Overview.",
       "renewal": "3 years; CPE + annual maintenance (issuer policy)",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -3323,7 +3353,9 @@
       "originalLabel": "CGRC",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-099",
@@ -3567,9 +3599,9 @@
       "name": "Mosse Institute Certified Cyber Protection Expert",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 800,
       "legacyPriceUSD": 800,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Cyber Protection Expert certification/training package at USD $800 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -3593,7 +3625,9 @@
       "originalLabel": "MCPE",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-107",
@@ -3703,9 +3737,9 @@
       "name": "Cisco Certified Network Professional - Enterprise",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 700,
       "legacyPriceUSD": 600,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco professional certification: $400 core + $300 concentration; no training requirement priced.",
       "renewal": "Not independently verified",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -3728,7 +3762,9 @@
       "originalLabel": "CCNP Ent",
       "originalTileSpan": 1,
       "originalTileClass": "networkitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-111",
@@ -4340,9 +4376,9 @@
       "name": "GIAC Experienced Forensics Analyst",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 1299,
       "legacyPriceUSD": 1299,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): GIAC GX-FA standard direct certification attempt $1,299; conditional $499 price is for existing active GCFA holders.",
       "renewal": "4 years; CPE or renewal exam + renewal fee (issuer policy)",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -4366,7 +4402,9 @@
       "originalLabel": "GX-FA",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.giac.org/pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-130",
@@ -4409,9 +4447,9 @@
       "name": "GIAC Experienced Penetration Tester",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 1299,
       "legacyPriceUSD": 1299,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): GIAC GX-PT standard direct certification attempt $1,299; conditional $499 price is for existing active GPEN holders.",
       "renewal": "4 years; CPE or renewal exam + renewal fee (issuer policy)",
       "proficiency": 3,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -4435,7 +4473,9 @@
       "originalLabel": "GX-PT",
       "originalTileSpan": 1,
       "originalTileClass": "redopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.giac.org/pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-132",
@@ -4779,9 +4819,9 @@
       "name": "Cloud Native Computing Foundation Certified Kubernetes Security Specialist",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 825,
       "legacyPriceUSD": 375,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Linux Foundation CKA + CKS exam bundle $825 includes mandatory CKA prerequisite; cheaper than two independent $445 exams.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -4805,7 +4845,9 @@
       "originalLabel": "CKS",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://training.linuxfoundation.org/full-catalog/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-143",
@@ -4813,9 +4855,9 @@
       "name": "Linux Foundation Certified System Administrator",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 445,
       "legacyPriceUSD": 300,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Linux Foundation LFCS exam-only $445; no required course.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -4839,7 +4881,9 @@
       "originalLabel": "LFCS",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-144",
@@ -4916,9 +4960,9 @@
       "name": "Scrum Professional Scrum Developer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 200,
       "legacyPriceUSD": 200,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Scrum.org PSD I assessment password $200; no mandatory course.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -4941,7 +4985,9 @@
       "originalLabel": "Scrum PSD",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.scrum.org/support/where-can-i-purchase-password-attempt-professional-level-assessment",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-147",
@@ -5050,9 +5096,9 @@
       "name": "Mosse Institute Certified GRC Expert Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 595,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified GRC Expert certification/training package at USD $595 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -5076,7 +5122,9 @@
       "originalLabel": "MGRC",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-151",
@@ -5084,9 +5132,9 @@
       "name": "(ISC)2 Certified Secure Software Lifecycle Professional",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 734,
       "legacyPriceUSD": 599,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): ISC2 CSSLP exam $599 + mandatory first annual maintenance fee $135; see https://www.isc2.org/Policies-Procedures/AMFs-Overview.",
       "renewal": "3 years; CPE + annual maintenance (issuer policy)",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -5112,7 +5160,9 @@
       "originalLabel": "CSSLP",
       "originalTileSpan": 9,
       "originalTileClass": "softwareitem6",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-152",
@@ -5120,9 +5170,9 @@
       "name": "Mosse Institute Certified Threat Hunter Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 595,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Threat Hunter certification/training package at USD $595 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -5145,7 +5195,9 @@
       "originalLabel": "MTH",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-153",
@@ -5255,9 +5307,9 @@
       "name": "Mosse Institute Certified DFIR Specialist",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified DFIR Specialist certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -5281,7 +5333,9 @@
       "originalLabel": "MDFIR",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-157",
@@ -5559,9 +5613,9 @@
       "name": "(ISC)2 Certified Cloud Security Professional",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 734,
       "legacyPriceUSD": 599,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): ISC2 CCSP exam $599 + mandatory first annual maintenance fee $135; see https://www.isc2.org/Policies-Procedures/AMFs-Overview.",
       "renewal": "3 years; CPE + annual maintenance (issuer policy)",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -5585,7 +5639,9 @@
       "originalLabel": "CCSP",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-166",
@@ -5661,9 +5717,9 @@
       "name": "Red Hat Certified System Administrator",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 500,
       "legacyPriceUSD": 400,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Red Hat standard list price for a standalone certification exam: $500.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -5687,7 +5743,9 @@
       "originalLabel": "RHCSA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://docs.redhat.com/en/documentation/red_hat_learning_subscription/1-latest/html/red_hat_certification_program_guide/index",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-169",
@@ -6533,9 +6591,9 @@
       "name": "Amazon Web Services Certified Security - Specialty",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 300,
       "legacyPriceUSD": 150,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): AWS Specialty examination standard USD fee; training optional.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -6560,7 +6618,9 @@
       "originalLabel": "AWS CSS",
       "originalTileSpan": 3,
       "originalTileClass": "engineeritem2",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://aws.amazon.com/certification/faqs/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-195",
@@ -6636,9 +6696,9 @@
       "name": "Cloud Native Computing Foundation Certified Kubernetes Administrator",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 445,
       "legacyPriceUSD": 375,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Linux Foundation CKA exam only $445; no separate mandatory course.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -6662,7 +6722,9 @@
       "originalLabel": "CKA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://training.linuxfoundation.org/full-catalog/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-198",
@@ -6803,9 +6865,9 @@
       "name": "Scrum  Professional Agile Leadership",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 200,
       "legacyPriceUSD": 200,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Scrum.org PAL I assessment password $200; no mandatory course.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -6828,7 +6890,9 @@
       "originalLabel": "Scrum PAL",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.scrum.org/support/where-can-i-purchase-password-attempt-professional-level-assessment",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-203",
@@ -6869,9 +6933,9 @@
       "name": "Scrum.org Professional Scrum Master II",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 250,
       "legacyPriceUSD": 250,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Scrum.org PSM II assessment password $250; prior PSM credential not mandatory.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -6894,7 +6958,9 @@
       "originalLabel": "PSM II",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.scrum.org/support/where-can-i-purchase-password-attempt-professional-level-assessment",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-205",
@@ -7306,9 +7372,9 @@
       "name": "Mosse Institute Certified Blue Teamer Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Blue Teamer certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -7332,7 +7398,9 @@
       "originalLabel": "MBT",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-218",
@@ -7340,9 +7408,9 @@
       "name": "Mosse Institute Certified Penetration Tester Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 595,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Penetration Tester certification/training package at USD $595 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -7366,7 +7434,9 @@
       "originalLabel": "MPT",
       "originalTileSpan": 1,
       "originalTileClass": "redopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-219",
@@ -7476,9 +7546,9 @@
       "name": "Mosse Institute Certified Reverse Engineer Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Reverse Engineer certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -7502,7 +7572,9 @@
       "originalLabel": "MRE",
       "originalTileSpan": 1,
       "originalTileClass": "redopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-223",
@@ -8048,9 +8120,9 @@
       "name": "Cisco Certified Network Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 300,
       "legacyPriceUSD": 330,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco associate CCNA 200-301 exam; standard US exam fee.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -8073,7 +8145,9 @@
       "originalLabel": "CCNA",
       "originalTileSpan": 1,
       "originalTileClass": "networkitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-240",
@@ -8184,9 +8258,9 @@
       "name": "Cloud Native Computing Foundation Certified Kubernetes Application Developer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 445,
       "legacyPriceUSD": 375,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Linux Foundation CKAD exam only $445; no separate mandatory course.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -8210,7 +8284,9 @@
       "originalLabel": "CKAD",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://training.linuxfoundation.org/full-catalog/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-244",
@@ -8688,9 +8764,9 @@
       "name": "Cisco Certified CyberOps Associate Cyber Operations",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 300,
       "legacyPriceUSD": 325,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Cisco cybersecurity/CyberOps associate exam; standard associate examination fee. Verify current credential title separately.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -8713,7 +8789,9 @@
       "originalLabel": "Cisco COA",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-260",
@@ -9160,9 +9238,9 @@
       "name": "Amazon Web Services Certified Solutions Architect - Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 150,
       "legacyPriceUSD": 150,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): AWS Associate examination standard USD fee; training optional.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -9186,7 +9264,9 @@
       "originalLabel": "AWS SAA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://aws.amazon.com/certification/faqs/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-274",
@@ -10135,9 +10215,9 @@
       "name": "Microsoft Azure Administrator Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 165,
       "legacyPriceUSD": 165,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft official US exam price for Azure Administrator Associate.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -10161,7 +10241,9 @@
       "originalLabel": "AZ-104",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-303",
@@ -10237,9 +10319,9 @@
       "name": "Mosse Institute Cloud Security Engineer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 595,
       "legacyPriceUSD": 600,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Cloud Security Engineer certification/training package at USD $595 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -10263,7 +10345,9 @@
       "originalLabel": "MCSE",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-306",
@@ -10738,9 +10822,9 @@
       "name": "Microsoft Certified: Security Operations Analyst Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 165,
       "legacyPriceUSD": 165,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft official US exam price for Security Operations Analyst Associate.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -10763,7 +10847,9 @@
       "originalLabel": "SC-200",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-321",
@@ -11209,9 +11295,9 @@
       "name": "Google Professional Cloud Security Engineer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 200,
       "legacyPriceUSD": 200,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Google Cloud Professional Cloud Security Engineer standard exam $200; no certification prerequisite.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -11235,7 +11321,9 @@
       "originalLabel": "Google PCSE",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://cloud.google.com/learn/certification/cloud-security-engineer",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-335",
@@ -11277,9 +11365,9 @@
       "name": "Mosse Institute Certified DevSecOps Engineer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified DevSecOps Engineer certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -11303,7 +11391,9 @@
       "originalLabel": "MDSO",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-337",
@@ -12186,9 +12276,9 @@
       "name": "Mosse Institute Vulnerability Researcher and Exploitation Specialist",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Vulnerability Researcher certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 2,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -12212,7 +12302,9 @@
       "originalLabel": "MVRE",
       "originalTileSpan": 1,
       "originalTileClass": "redopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-364",
@@ -12319,9 +12411,9 @@
       "name": "Microsoft Certfied: Identity and Access Administrator Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 165,
       "legacyPriceUSD": 165,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft official US exam price for Identity and Access Administrator Associate.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -12344,7 +12436,9 @@
       "originalLabel": "SC-300",
       "originalTileSpan": 1,
       "originalTileClass": "iamitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-368",
@@ -12555,9 +12649,9 @@
       "name": "MOIS Certified OSINT Expert Certification",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified OSINT Expert certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -12580,7 +12674,9 @@
       "originalLabel": "MOIS",
       "originalTileSpan": 1,
       "originalTileClass": "blueopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-375",
@@ -13096,9 +13192,9 @@
       "name": "Cloud Native Computing Foundation Kubernetes and Cloud Native Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 250,
       "legacyPriceUSD": 250,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Linux Foundation KCNA exam-only standard list price.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -13122,7 +13218,9 @@
       "originalLabel": "KCNA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://training.linuxfoundation.org/full-catalog/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-391",
@@ -13231,9 +13329,9 @@
       "name": "(ISC)2 Systems Security Certified Practitioner",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 384,
       "legacyPriceUSD": 249,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): ISC2 SSCP exam $249 + mandatory first annual maintenance fee $135; see https://www.isc2.org/Policies-Procedures/AMFs-Overview.",
       "renewal": "3 years; CPE + annual maintenance (issuer policy)",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -13256,7 +13354,9 @@
       "recordType": "Existing",
       "originalLabel": "SSCP",
       "originalTileSpan": 1,
-      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "priceEvidenceURL": "https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-395",
@@ -13432,9 +13532,9 @@
       "name": "Mosse Institute Cloud Penetration Tester",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 699,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Certified Cloud Penetration Tester certification/training package at USD $699 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -13458,7 +13558,9 @@
       "originalLabel": "MCPT",
       "originalTileSpan": 1,
       "originalTileClass": "redopsitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-401",
@@ -13667,9 +13769,9 @@
       "name": "Google Associate Cloud Engineer",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 125,
       "legacyPriceUSD": 125,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Google Cloud Associate Cloud Engineer standard exam $125; no certification prerequisite.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -13693,7 +13795,9 @@
       "originalLabel": "Google ACE",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://cloud.google.com/learn/certification/cloud-engineer",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-408",
@@ -13735,9 +13839,9 @@
       "name": "Linux Foundation Certified IT Associate",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 250,
       "legacyPriceUSD": 200,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Linux Foundation LFCA exam-only $250; no required course.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -13761,7 +13865,9 @@
       "originalLabel": "LFCA",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://training.linuxfoundation.org/certification/certified-it-associate/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-410",
@@ -14136,9 +14242,9 @@
       "name": "Microsoft Azure Fundamentals",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 99,
       "legacyPriceUSD": 165,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft official US exam price for Azure Fundamentals.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -14162,7 +14268,9 @@
       "originalLabel": "AZ-900",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-422",
@@ -14170,9 +14278,9 @@
       "name": "Mosse Institute Cloud Services Fundamentals",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 450,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises Cloud Services Fundamentals certification/training package at USD $450 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -14196,7 +14304,9 @@
       "originalLabel": "MCSF",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-423",
@@ -14204,9 +14314,9 @@
       "name": "Mosse Institute System Administration Fundamentals",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 450,
       "legacyPriceUSD": 450,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "MCSI issuer catalog publicly advertises System Administration Fundamentals certification/training package at USD $450 (current displayed price; exam/certification included). Promotions may expire or offer lower checkout total; validate cart for current discounts.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -14230,7 +14340,9 @@
       "originalLabel": "MSAF",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.mosse-institute.com/certifications",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-424",
@@ -15075,9 +15187,9 @@
       "name": "Amazon Web Services Certified Cloud Practitioner",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 100,
       "legacyPriceUSD": 100,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): AWS Foundational examination standard USD fee; training optional.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -15101,7 +15213,9 @@
       "originalLabel": "AWS CP",
       "originalTileSpan": 1,
       "originalTileClass": "engineeritem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://aws.amazon.com/certification/faqs/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-450",
@@ -15343,9 +15457,9 @@
       "name": "Scrum.org Professional Scrum Master I",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 200,
       "legacyPriceUSD": 150,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Official issuer public standard exam/assessment fee (USD, pre-tax); Scrum.org PSM I assessment password $200; no mandatory course.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -15368,7 +15482,9 @@
       "originalLabel": "PSM I",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.scrum.org/support/where-can-i-purchase-password-attempt-professional-level-assessment",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-458",
@@ -15478,9 +15594,9 @@
       "name": "ISC2 Certified in Cybersecurity",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 249,
       "legacyPriceUSD": null,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): ISC2 CC exam $199 + initial $50 annual fee. Prior free-voucher program closed to new applicants May 20, 2026; grandfathered free codes can be used through Dec 31, 2026.",
       "renewal": "3 years; CPE + annual maintenance (issuer policy)",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -15504,7 +15620,9 @@
       "originalLabel": "CC",
       "originalTileSpan": 1,
       "originalTileClass": "mgmtitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://www.isc2.org/Register-For-Exam/ISC2-Exam-Pricing",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-462",
@@ -15780,9 +15898,9 @@
       "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
       "status": "Unverified (legacy inventory)",
       "displayOnRoadmap": true,
-      "priceUSD": null,
+      "priceUSD": 99,
       "legacyPriceUSD": 99,
-      "priceEvidence": "Legacy price only / current cost unverified",
+      "priceEvidence": "Issuer-published standard acquisition pathway (USD; before taxes): Microsoft official US exam price for Security Compliance and Identity Fundamentals.",
       "renewal": "Not independently verified",
       "proficiency": 1,
       "proficiencyEvidence": "Bulk-proposed from source chart; individually verify",
@@ -15805,7 +15923,9 @@
       "originalLabel": "SC-900",
       "originalTileSpan": 1,
       "originalTileClass": "iamitem1",
-      "originalLayoutEvidence": "2024 original HTML class"
+      "originalLayoutEvidence": "2024 original HTML class",
+      "priceEvidenceURL": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
+      "priceVerifiedAt": "2026-11-21"
     },
     {
       "id": "SRC-471",
