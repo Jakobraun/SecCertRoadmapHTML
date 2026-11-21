@@ -77,12 +77,12 @@ function buildOriginal(source, dataset) {
 
  // Replace row-specific rotated difficulty labels with neutral spacers so the
  // underlying source grid stays in exactly the same order and at the same widths.
- const replacedLabels=(s.match(/<div class="skilllevelitem"><span style="color:var\\(--(?:reddk|orangedk|greendk)\\)">(?:Expert|Advanced|Intermediate|Foundation)<\\/span><\\/div>/g)||[]).length;
+ const labelPattern=/<div class="skilllevelitem"><span style="color:var\(--(?:reddk|orangedk|greendk)\)">(?:Expert|Advanced|Intermediate|Foundation)<\/span><\/div>/g;
+ const replacedLabels=[...s.matchAll(labelPattern)].length;
  if(replacedLabels!==4)throw Error("Expected four original/injected difficulty labels, found "+replacedLabels);
- s=s.replace(/<div class="skilllevelitem"><span style="color:var\\(--(?:reddk|orangedk|greendk)\\)">(?:Expert|Advanced|Intermediate|Foundation)<\\/span><\\/div>/g,
-   '<div class="spacer"></div>');
+ s=s.replace(labelPattern,'<div class="spacer"></div>');
  const difficultyMarkup="<div class=\"difficulty-axis\" aria-label=\"Difficulty levels\">\n                <div class=\"difficulty-band difficulty-expert\"><span>Expert</span></div>\n                <div class=\"difficulty-band difficulty-advanced\"><span>Advanced</span></div>\n                <div class=\"difficulty-band difficulty-intermediate\"><span>Intermediate</span></div>\n                <div class=\"difficulty-band difficulty-foundation\"><span>Foundation</span></div>\n            </div>";
- s=s.replace('<div class="certcontainer">','<div class="certcontainer">\\r\\n            '+difficultyMarkup);
+ s=s.replace('<div class="certcontainer">','<div class="certcontainer">\r\n            '+difficultyMarkup);
 
  // Retain all domain and subcategory display styles; override only foreground tile fill and tier gap sizing.
  const css=`
