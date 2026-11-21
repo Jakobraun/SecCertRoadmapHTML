@@ -64,6 +64,7 @@ function openDetails(c,trigger){
   body.append(textNode("p",c.label+" · "+(isArchived(c)?"Archived / hidden by default":"Active chart candidate"),"pill"));
   const dl=document.createElement("dl");
   detailLine(dl,"Record / source identifier",c.id+" · "+(c.sourceIds||[]).join(", "));
+  detailLine(dl,"Original 2024 tile label",c.originalLabel);
   detailLine(dl,"Lifecycle status",c.status);
   detailLine(dl,"Proficiency",({1:"1 — Foundation",2:"2 — Intermediate",3:"3 — Advanced",4:"4 — Expert"})[c.proficiency]);
   detailLine(dl,"Proficiency evidence",c.proficiencyEvidence);
@@ -111,7 +112,7 @@ function filtered(){
    if(cred==="unrated"&&band!=="unrated")return false;
    if(cred&&!["rated","unrated"].includes(cred)&&band!==cred)return false;
    if(query){
-      const hay=[c.label,c.name,c.status,c.disposition,c.id,c.subdomain,
+      const hay=[c.label,c.originalLabel,c.name,c.status,c.disposition,c.id,c.subdomain,
                  ...domainsFor(c),...(c.sourceIds||[])].join(" ").toLowerCase();
       if(!hay.includes(query))return false;
    }
