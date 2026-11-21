@@ -10,7 +10,9 @@
     "canonicalCount": 487,
     "visibleCount": 477,
     "archivedCount": 10,
-    "provisionalCredibilityCount": 6
+    "provisionalCredibilityCount": 6,
+    "layoutVersion": 2,
+    "layoutNotes": "Original domain distribution and tile widths preserved where available; extra domains planned-only; 4 proficiency bands."
   },
   "certifications": [
     {
@@ -42,7 +44,10 @@
         "SRC-001"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSEE"
+      "originalLabel": "OSEE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-002",
@@ -73,7 +78,10 @@
         "SRC-002"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCIE Sec"
+      "originalLabel": "CCIE Sec",
+      "originalTileSpan": 3,
+      "originalTileClass": "networkitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-003",
@@ -103,7 +111,10 @@
         "SRC-003"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CRTSA"
+      "originalLabel": "CREST CRTSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-004",
@@ -134,7 +145,10 @@
         "SRC-004"
       ],
       "recordType": "Existing",
-      "originalLabel": "ITIL Master"
+      "originalLabel": "ITIL Master",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-005",
@@ -165,7 +179,10 @@
         "SRC-005"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSCE3"
+      "originalLabel": "OSCE3",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-006",
@@ -196,7 +213,10 @@
         "SRC-006"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCIE Ent"
+      "originalLabel": "CCIE Ent",
+      "originalTileSpan": 3,
+      "originalTileClass": "networkitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-007",
@@ -227,7 +247,10 @@
         "SRC-007"
       ],
       "recordType": "Existing",
-      "originalLabel": "VCDX DCV"
+      "originalLabel": "VCDX DCV",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-008",
@@ -258,7 +281,10 @@
         "SRC-008"
       ],
       "recordType": "Existing",
-      "originalLabel": "RHCA"
+      "originalLabel": "RHCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-009",
@@ -288,7 +314,10 @@
         "SRC-009"
       ],
       "recordType": "Existing",
-      "originalLabel": "SABSA SCM"
+      "originalLabel": "SABSA SCM",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-010",
@@ -319,7 +348,9 @@
         "SRC-010"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSE"
+      "originalLabel": "GSE",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-011",
@@ -351,7 +382,10 @@
         "SRC-011"
       ],
       "recordType": "Existing",
-      "originalLabel": "GREM"
+      "originalLabel": "GREM",
+      "originalTileSpan": 5,
+      "originalTileClass": "blueopsitem3",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-012",
@@ -382,7 +416,10 @@
         "SRC-012"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSWE"
+      "originalLabel": "OSWE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-013",
@@ -414,7 +451,10 @@
         "SRC-013"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSEP"
+      "originalLabel": "OSEP",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-014",
@@ -445,7 +485,10 @@
         "SRC-014"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSED"
+      "originalLabel": "OSED",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-015",
@@ -475,7 +518,10 @@
         "SRC-015"
       ],
       "recordType": "Existing",
-      "originalLabel": "PgMP"
+      "originalLabel": "PgMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-016",
@@ -506,7 +552,9 @@
         "SRC-016"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISSP Concentrations"
+      "originalLabel": "CISSP Concentrations",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-017",
@@ -536,7 +584,10 @@
         "SRC-017"
       ],
       "recordType": "Existing",
-      "originalLabel": "NCSC CCPLP"
+      "originalLabel": "NCSC CCPLP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-018",
@@ -567,7 +618,10 @@
         "SRC-018"
       ],
       "recordType": "Existing",
-      "originalLabel": "CFCE"
+      "originalLabel": "CFCE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-019",
@@ -599,7 +653,10 @@
         "SRC-019"
       ],
       "recordType": "Existing",
-      "originalLabel": "GXPN"
+      "originalLabel": "GXPN",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-020",
@@ -630,7 +687,10 @@
         "SRC-020"
       ],
       "recordType": "Existing",
-      "originalLabel": "VCIX DCV"
+      "originalLabel": "VCIX DCV",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-021",
@@ -661,7 +721,10 @@
         "SRC-021"
       ],
       "recordType": "Existing",
-      "originalLabel": "ASIS CPP"
+      "originalLabel": "ASIS CPP",
+      "originalTileSpan": 3,
+      "originalTileClass": "assetitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-022",
@@ -691,7 +754,10 @@
         "SRC-022"
       ],
       "recordType": "Existing",
-      "originalLabel": "Zach EAPro"
+      "originalLabel": "Zach EAPro",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-023",
@@ -721,7 +787,10 @@
         "SRC-023"
       ],
       "recordType": "Existing",
-      "originalLabel": "PMP"
+      "originalLabel": "PMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-024",
@@ -752,7 +821,10 @@
         "SRC-024"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISM"
+      "originalLabel": "CISM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-025",
@@ -783,7 +855,10 @@
         "SRC-025"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-ISME"
+      "originalLabel": "S-ISME",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-026",
@@ -813,7 +888,10 @@
         "SRC-026"
       ],
       "recordType": "Existing",
-      "originalLabel": "NCSC CCPSP"
+      "originalLabel": "NCSC CCPSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-027",
@@ -844,7 +922,10 @@
         "SRC-027"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSFA"
+      "originalLabel": "CSFA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-028",
@@ -876,7 +957,10 @@
         "SRC-028"
       ],
       "recordType": "Existing",
-      "originalLabel": "GIME"
+      "originalLabel": "GIME",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-029",
@@ -908,7 +992,10 @@
         "SRC-029"
       ],
       "recordType": "Existing",
-      "originalLabel": "GAWN"
+      "originalLabel": "GAWN",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-030",
@@ -939,7 +1026,9 @@
         "SRC-030"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISSP"
+      "originalLabel": "CISSP",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-031",
@@ -969,7 +1058,10 @@
         "SRC-031"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCD"
+      "originalLabel": "CCD",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-032",
@@ -1000,7 +1092,10 @@
         "SRC-032"
       ],
       "recordType": "Existing",
-      "originalLabel": "CAWFE"
+      "originalLabel": "CAWFE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-033",
@@ -1032,7 +1127,10 @@
         "SRC-033"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCFA"
+      "originalLabel": "GCFA",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-034",
@@ -1063,7 +1161,10 @@
         "SRC-034"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCTI"
+      "originalLabel": "GCTI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-035",
@@ -1095,7 +1196,10 @@
         "SRC-035"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CSAM"
+      "originalLabel": "CREST CSAM",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-036",
@@ -1125,7 +1229,10 @@
         "SRC-036"
       ],
       "recordType": "Existing",
-      "originalLabel": "JNCIE Sec"
+      "originalLabel": "JNCIE Sec",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-037",
@@ -1155,7 +1262,10 @@
         "SRC-037"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCDE"
+      "originalLabel": "CCDE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-038",
@@ -1186,7 +1296,10 @@
         "SRC-038"
       ],
       "recordType": "Existing",
-      "originalLabel": "AWS SAP"
+      "originalLabel": "AWS SAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-039",
@@ -1217,7 +1330,10 @@
         "SRC-039"
       ],
       "recordType": "Existing",
-      "originalLabel": "RHCE"
+      "originalLabel": "RHCE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-040",
@@ -1248,7 +1364,10 @@
         "SRC-040"
       ],
       "recordType": "Existing",
-      "originalLabel": "GDAT"
+      "originalLabel": "GDAT",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-041",
@@ -1278,7 +1397,10 @@
         "SRC-041"
       ],
       "recordType": "Existing",
-      "originalLabel": "SC-100"
+      "originalLabel": "SC-100",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-042",
@@ -1309,7 +1431,10 @@
         "SRC-042"
       ],
       "recordType": "Existing",
-      "originalLabel": "TOGAF"
+      "originalLabel": "TOGAF",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-043",
@@ -1340,7 +1465,10 @@
         "SRC-043"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCISO"
+      "originalLabel": "CCISO",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-044",
@@ -1371,7 +1499,10 @@
         "SRC-044"
       ],
       "recordType": "Existing",
-      "originalLabel": "EEXIN ISM"
+      "originalLabel": "EEXIN ISM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-045",
@@ -1401,7 +1532,10 @@
         "SRC-045"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSTRT"
+      "originalLabel": "GSTRT",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-046",
@@ -1431,7 +1565,10 @@
         "SRC-046"
       ],
       "recordType": "Existing",
-      "originalLabel": "NCSC CCPP"
+      "originalLabel": "NCSC CCPP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-047",
@@ -1461,7 +1598,10 @@
         "SRC-047"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSNA"
+      "originalLabel": "GSNA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-048",
@@ -1492,7 +1632,10 @@
         "SRC-048"
       ],
       "recordType": "Existing",
-      "originalLabel": "CFSR"
+      "originalLabel": "CFSR",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-049",
@@ -1523,7 +1666,10 @@
         "SRC-049"
       ],
       "recordType": "Existing",
-      "originalLabel": "GNFA"
+      "originalLabel": "GNFA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-050",
@@ -1554,7 +1700,10 @@
         "SRC-050"
       ],
       "recordType": "Existing",
-      "originalLabel": "eWPTX"
+      "originalLabel": "eWPTX",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-051",
@@ -1585,7 +1734,10 @@
         "SRC-051"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CCSAS"
+      "originalLabel": "CREST CCSAS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-052",
@@ -1615,7 +1767,10 @@
         "SRC-052"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCX"
+      "originalLabel": "FCX",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-053",
@@ -1646,7 +1801,10 @@
         "SRC-053"
       ],
       "recordType": "Existing",
-      "originalLabel": "AZ-305"
+      "originalLabel": "AZ-305",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-054",
@@ -1677,7 +1835,10 @@
         "SRC-054"
       ],
       "recordType": "Existing",
-      "originalLabel": "VCIX NV"
+      "originalLabel": "VCIX NV",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-055",
@@ -1708,7 +1869,10 @@
         "SRC-055"
       ],
       "recordType": "Existing",
-      "originalLabel": "LPIC-3"
+      "originalLabel": "LPIC-3",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-056",
@@ -1738,7 +1902,10 @@
         "SRC-056"
       ],
       "recordType": "Existing",
-      "originalLabel": "SABSA SCP"
+      "originalLabel": "SABSA SCP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-057",
@@ -1768,7 +1935,10 @@
         "SRC-057"
       ],
       "recordType": "Existing",
-      "originalLabel": "PSM III"
+      "originalLabel": "PSM III",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-058",
@@ -1799,7 +1969,9 @@
         "SRC-058"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSP"
+      "originalLabel": "GSP",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-059",
@@ -1829,7 +2001,10 @@
         "SRC-059"
       ],
       "recordType": "Existing",
-      "originalLabel": "GISP"
+      "originalLabel": "GISP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-060",
@@ -1859,7 +2034,10 @@
         "SRC-060"
       ],
       "recordType": "Existing",
-      "originalLabel": "MTIA"
+      "originalLabel": "MTIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-061",
@@ -1890,7 +2068,10 @@
         "SRC-061"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCFR"
+      "originalLabel": "GCFR",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-062",
@@ -1922,7 +2103,10 @@
         "SRC-062"
       ],
       "recordType": "Existing",
-      "originalLabel": "BTL2"
+      "originalLabel": "BTL2",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-063",
@@ -1953,7 +2137,10 @@
         "SRC-063"
       ],
       "recordType": "Existing",
-      "originalLabel": "MRT"
+      "originalLabel": "MRT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-064",
@@ -1984,7 +2171,10 @@
         "SRC-064"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CCTINF"
+      "originalLabel": "CREST CCTINF",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-065",
@@ -2015,7 +2205,10 @@
         "SRC-065"
       ],
       "recordType": "Existing",
-      "originalLabel": "HTB CWEE"
+      "originalLabel": "HTB CWEE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-066",
@@ -2046,7 +2239,10 @@
         "SRC-066"
       ],
       "recordType": "Existing",
-      "originalLabel": "Google PCSA"
+      "originalLabel": "Google PCSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-067",
@@ -2077,7 +2273,10 @@
         "SRC-067"
       ],
       "recordType": "Existing",
-      "originalLabel": "SCE"
+      "originalLabel": "SCE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-068",
@@ -2108,7 +2307,10 @@
         "SRC-068"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISA CE"
+      "originalLabel": "ISA CE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-069",
@@ -2138,7 +2340,10 @@
         "SRC-069"
       ],
       "recordType": "Existing",
-      "originalLabel": "GDSA"
+      "originalLabel": "GDSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-070",
@@ -2168,7 +2373,10 @@
         "SRC-070"
       ],
       "recordType": "Existing",
-      "originalLabel": "ITIL SL"
+      "originalLabel": "ITIL SL",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-071",
@@ -2198,7 +2406,10 @@
         "SRC-071"
       ],
       "recordType": "Existing",
-      "originalLabel": "Zach EAP"
+      "originalLabel": "Zach EAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-072",
@@ -2228,7 +2439,10 @@
         "SRC-072"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSLC"
+      "originalLabel": "GSLC",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-073",
@@ -2259,7 +2473,10 @@
         "SRC-073"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-CISO"
+      "originalLabel": "S-CISO",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-074",
@@ -2291,7 +2508,10 @@
         "SRC-074"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCFE"
+      "originalLabel": "GCFE",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-075",
@@ -2322,7 +2542,10 @@
         "SRC-075"
       ],
       "recordType": "Existing",
-      "originalLabel": "GEIR"
+      "originalLabel": "GEIR",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-076",
@@ -2353,7 +2576,10 @@
         "SRC-076"
       ],
       "recordType": "Existing",
-      "originalLabel": "PACES"
+      "originalLabel": "PACES",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-077",
@@ -2384,7 +2610,10 @@
         "SRC-077"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-CEHL"
+      "originalLabel": "S-CEHL",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-078",
@@ -2415,7 +2644,10 @@
         "SRC-078"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CRT"
+      "originalLabel": "CREST CRT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-079",
@@ -2446,7 +2678,10 @@
         "SRC-079"
       ],
       "recordType": "Existing",
-      "originalLabel": "CRTO II"
+      "originalLabel": "CRTO II",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-080",
@@ -2477,7 +2712,10 @@
         "SRC-080"
       ],
       "recordType": "Existing",
-      "originalLabel": "MCD"
+      "originalLabel": "MCD",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-081",
@@ -2507,7 +2745,10 @@
         "SRC-081"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCNP Sec"
+      "originalLabel": "CCNP Sec",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-082",
@@ -2539,7 +2780,10 @@
         "SRC-246"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIMP"
+      "originalLabel": "CIMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-083",
@@ -2570,7 +2814,9 @@
         "SRC-083"
       ],
       "recordType": "Existing",
-      "originalLabel": "CASP+"
+      "originalLabel": "CASP+",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-084",
@@ -2601,7 +2847,10 @@
         "SRC-084"
       ],
       "recordType": "Existing",
-      "originalLabel": "GASF"
+      "originalLabel": "GASF",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-085",
@@ -2633,7 +2882,10 @@
         "SRC-085"
       ],
       "recordType": "Existing",
-      "originalLabel": "eCTHP"
+      "originalLabel": "eCTHP",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-086",
@@ -2664,7 +2916,10 @@
         "SRC-086"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-EHE"
+      "originalLabel": "S-EHE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-087",
@@ -2694,7 +2949,10 @@
         "SRC-087"
       ],
       "recordType": "Existing",
-      "originalLabel": "JNCIP Sec"
+      "originalLabel": "JNCIP Sec",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-088",
@@ -2724,7 +2982,10 @@
         "SRC-088"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCNSE"
+      "originalLabel": "PCNSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-089",
@@ -2754,7 +3015,10 @@
         "SRC-089"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCSS ZTA"
+      "originalLabel": "FCSS ZTA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-090",
@@ -2784,7 +3048,10 @@
         "SRC-090"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCSS SASE"
+      "originalLabel": "FCSS SASE",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-091",
@@ -2815,7 +3082,10 @@
         "SRC-091"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCSS PCS"
+      "originalLabel": "FCSS PCS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-092",
@@ -2846,7 +3116,10 @@
         "SRC-092"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCTD"
+      "originalLabel": "GCTD",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-093",
@@ -2877,7 +3150,10 @@
         "SRC-093"
       ],
       "recordType": "Existing",
-      "originalLabel": "CACE"
+      "originalLabel": "CACE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-094",
@@ -2908,7 +3184,10 @@
         "SRC-094"
       ],
       "recordType": "Existing",
-      "originalLabel": "ITIL MP"
+      "originalLabel": "ITIL MP",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-095",
@@ -2938,7 +3217,10 @@
         "SRC-095"
       ],
       "recordType": "Existing",
-      "originalLabel": "Scrum SPS"
+      "originalLabel": "Scrum SPS",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-096",
@@ -2968,7 +3250,10 @@
         "SRC-096"
       ],
       "recordType": "Existing",
-      "originalLabel": "GLEG"
+      "originalLabel": "GLEG",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-097",
@@ -2999,7 +3284,10 @@
         "SRC-097"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISSM"
+      "originalLabel": "CISSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-098",
@@ -3030,7 +3318,10 @@
         "SRC-098"
       ],
       "recordType": "Existing",
-      "originalLabel": "CGRC"
+      "originalLabel": "CGRC",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-099",
@@ -3062,7 +3353,10 @@
         "SRC-099"
       ],
       "recordType": "Existing",
-      "originalLabel": "CRISC"
+      "originalLabel": "CRISC",
+      "originalTileSpan": 5,
+      "originalTileClass": "mgmtitem3",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-100",
@@ -3092,7 +3386,10 @@
         "SRC-100"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCCC"
+      "originalLabel": "GCCC",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-101",
@@ -3122,7 +3419,10 @@
         "SRC-101"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCI QSA"
+      "originalLabel": "PCI QSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-102",
@@ -3152,7 +3452,10 @@
         "SRC-102"
       ],
       "recordType": "Existing",
-      "originalLabel": "GWEB"
+      "originalLabel": "GWEB",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-103",
@@ -3182,7 +3485,10 @@
         "SRC-103"
       ],
       "recordType": "Existing",
-      "originalLabel": "Cisco COP"
+      "originalLabel": "Cisco COP",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-104",
@@ -3213,7 +3519,10 @@
         "SRC-104"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCFE"
+      "originalLabel": "CCFE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-105",
@@ -3245,7 +3554,10 @@
         "SRC-105"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCED"
+      "originalLabel": "GCED",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-106",
@@ -3276,7 +3588,10 @@
         "SRC-106"
       ],
       "recordType": "Existing",
-      "originalLabel": "MCPE"
+      "originalLabel": "MCPE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-107",
@@ -3307,7 +3622,10 @@
         "SRC-107"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CCTIM"
+      "originalLabel": "CREST CCTIM",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-108",
@@ -3339,7 +3657,10 @@
         "SRC-108"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSCP"
+      "originalLabel": "OSCP",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-109",
@@ -3369,7 +3690,10 @@
         "SRC-109"
       ],
       "recordType": "Existing",
-      "originalLabel": "F5 CSE Sec"
+      "originalLabel": "F5 CSE Sec",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-110",
@@ -3399,7 +3723,10 @@
         "SRC-110"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCNP Ent"
+      "originalLabel": "CCNP Ent",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-111",
@@ -3431,7 +3758,10 @@
         "SRC-111"
       ],
       "recordType": "Existing",
-      "originalLabel": "MS-100"
+      "originalLabel": "MS-100",
+      "originalTileSpan": 3,
+      "originalTileClass": "engineeritem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-112",
@@ -3462,7 +3792,10 @@
         "SRC-112"
       ],
       "recordType": "Existing",
-      "originalLabel": "GPCS"
+      "originalLabel": "GPCS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-113",
@@ -3493,7 +3826,10 @@
         "SRC-113"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCSA"
+      "originalLabel": "GCSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-114",
@@ -3524,7 +3860,10 @@
         "SRC-114"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCWN"
+      "originalLabel": "GCWN",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-115",
@@ -3555,7 +3894,10 @@
         "SRC-115"
       ],
       "recordType": "Existing",
-      "originalLabel": "GRID"
+      "originalLabel": "GRID",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-116",
@@ -3585,7 +3927,10 @@
         "SRC-116"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIS LI"
+      "originalLabel": "CIS LI",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-117",
@@ -3615,7 +3960,10 @@
         "SRC-117"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIPT"
+      "originalLabel": "CIPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-118",
@@ -3646,7 +3994,10 @@
         "SRC-118"
       ],
       "recordType": "Existing",
-      "originalLabel": "CDPSE"
+      "originalLabel": "CDPSE",
+      "originalTileSpan": 3,
+      "originalTileClass": "assetitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-119",
@@ -3676,7 +4027,10 @@
         "SRC-119"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSM"
+      "originalLabel": "CSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-120",
@@ -3706,7 +4060,10 @@
         "SRC-120"
       ],
       "recordType": "Existing",
-      "originalLabel": "CASM"
+      "originalLabel": "CASM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-121",
@@ -3737,7 +4094,10 @@
         "SRC-121"
       ],
       "recordType": "Existing",
-      "originalLabel": "CM)ISSO"
+      "originalLabel": "CM)ISSO",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-122",
@@ -3767,7 +4127,10 @@
         "SRC-122"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-ISP"
+      "originalLabel": "S-ISP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-123",
@@ -3798,7 +4161,10 @@
         "SRC-123"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISA"
+      "originalLabel": "CISA",
+      "originalTileSpan": 3,
+      "originalTileClass": "testitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-124",
@@ -3828,7 +4194,10 @@
         "SRC-124"
       ],
       "recordType": "Existing",
-      "originalLabel": "GMON"
+      "originalLabel": "GMON",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-125",
@@ -3858,7 +4227,10 @@
         "SRC-125"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIS LA"
+      "originalLabel": "CIS LA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-126",
@@ -3888,7 +4260,10 @@
         "SRC-126"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-CSPL"
+      "originalLabel": "S-CSPL",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-127",
@@ -3918,7 +4293,10 @@
         "SRC-127"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCDA"
+      "originalLabel": "GCDA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-128",
@@ -3949,7 +4327,10 @@
         "SRC-128"
       ],
       "recordType": "Existing",
-      "originalLabel": "CMFE"
+      "originalLabel": "CMFE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-129",
@@ -3980,7 +4361,10 @@
         "SRC-129"
       ],
       "recordType": "Existing",
-      "originalLabel": "GX-FA"
+      "originalLabel": "GX-FA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-130",
@@ -4012,7 +4396,10 @@
         "SRC-130"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCIH"
+      "originalLabel": "GCIH",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-131",
@@ -4043,7 +4430,10 @@
         "SRC-131"
       ],
       "recordType": "Existing",
-      "originalLabel": "GX-PT"
+      "originalLabel": "GX-PT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-132",
@@ -4074,7 +4464,10 @@
         "SRC-132"
       ],
       "recordType": "Existing",
-      "originalLabel": "GPEN"
+      "originalLabel": "GPEN",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-133",
@@ -4105,7 +4498,10 @@
         "SRC-133"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSWP"
+      "originalLabel": "OSWP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-134",
@@ -4136,7 +4532,10 @@
         "SRC-134"
       ],
       "recordType": "Existing",
-      "originalLabel": "CRTO"
+      "originalLabel": "CRTO",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-135",
@@ -4166,7 +4565,10 @@
         "SRC-135"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSM"
+      "originalLabel": "CCSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-136",
@@ -4196,7 +4598,10 @@
         "SRC-136"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCSAE"
+      "originalLabel": "PCSAE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-137",
@@ -4226,7 +4631,10 @@
         "SRC-137"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCCSE"
+      "originalLabel": "PCCSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-138",
@@ -4256,7 +4664,10 @@
         "SRC-138"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIAM"
+      "originalLabel": "CIAM",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-139",
@@ -4287,7 +4698,10 @@
         "SRC-139"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCSS SO"
+      "originalLabel": "FCSS SO",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-140",
@@ -4318,7 +4732,10 @@
         "SRC-140"
       ],
       "recordType": "Existing",
-      "originalLabel": "PDSO CDE"
+      "originalLabel": "PDSO CDE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-141",
@@ -4349,7 +4766,10 @@
         "SRC-141"
       ],
       "recordType": "Existing",
-      "originalLabel": "VCP DCV"
+      "originalLabel": "VCP DCV",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-142",
@@ -4380,7 +4800,10 @@
         "SRC-142"
       ],
       "recordType": "Existing",
-      "originalLabel": "CKS"
+      "originalLabel": "CKS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-143",
@@ -4411,7 +4834,10 @@
         "SRC-143"
       ],
       "recordType": "Existing",
-      "originalLabel": "LFCS"
+      "originalLabel": "LFCS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-144",
@@ -4442,7 +4868,10 @@
         "SRC-144"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCSS OT"
+      "originalLabel": "FCSS OT",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-145",
@@ -4474,7 +4903,10 @@
         "SRC-145"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSSA"
+      "originalLabel": "CSSA",
+      "originalTileSpan": 6,
+      "originalTileClass": "engineeritem4",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-146",
@@ -4504,7 +4936,10 @@
         "SRC-146"
       ],
       "recordType": "Existing",
-      "originalLabel": "Scrum PSD"
+      "originalLabel": "Scrum PSD",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-147",
@@ -4534,7 +4969,10 @@
         "SRC-147"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCPM"
+      "originalLabel": "GCPM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-148",
@@ -4565,7 +5003,10 @@
         "SRC-148"
       ],
       "recordType": "Existing",
-      "originalLabel": "BCS PCIRM"
+      "originalLabel": "BCS PCIRM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-149",
@@ -4596,7 +5037,10 @@
         "SRC-149"
       ],
       "recordType": "Existing",
-      "originalLabel": "PEXIN ISM"
+      "originalLabel": "PEXIN ISM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-150",
@@ -4627,7 +5071,10 @@
         "SRC-150"
       ],
       "recordType": "Existing",
-      "originalLabel": "MGRC"
+      "originalLabel": "MGRC",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-151",
@@ -4660,7 +5107,10 @@
         "SRC-151"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSSLP"
+      "originalLabel": "CSSLP",
+      "originalTileSpan": 9,
+      "originalTileClass": "softwareitem6",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-152",
@@ -4690,7 +5140,10 @@
         "SRC-152"
       ],
       "recordType": "Existing",
-      "originalLabel": "MTH"
+      "originalLabel": "MTH",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-153",
@@ -4721,7 +5174,10 @@
         "SRC-153"
       ],
       "recordType": "Existing",
-      "originalLabel": "CDRP"
+      "originalLabel": "CDRP",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-154",
@@ -4752,7 +5208,10 @@
         "SRC-154"
       ],
       "recordType": "Existing",
-      "originalLabel": "eCDFP"
+      "originalLabel": "eCDFP",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-155",
@@ -4783,7 +5242,10 @@
         "SRC-155"
       ],
       "recordType": "Existing",
-      "originalLabel": "GPYC"
+      "originalLabel": "GPYC",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-156",
@@ -4814,7 +5276,10 @@
         "SRC-156"
       ],
       "recordType": "Existing",
-      "originalLabel": "MDFIR"
+      "originalLabel": "MDFIR",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-157",
@@ -4845,7 +5310,10 @@
         "SRC-157"
       ],
       "recordType": "Existing",
-      "originalLabel": "LPT"
+      "originalLabel": "LPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-158",
@@ -4876,7 +5344,10 @@
         "SRC-158"
       ],
       "recordType": "Existing",
-      "originalLabel": "PNPT"
+      "originalLabel": "PNPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-159",
@@ -4907,7 +5378,10 @@
         "SRC-159"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCPN"
+      "originalLabel": "GCPN",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-160",
@@ -4938,7 +5412,10 @@
         "SRC-160"
       ],
       "recordType": "Existing",
-      "originalLabel": "GRTP"
+      "originalLabel": "GRTP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-161",
@@ -4969,7 +5446,10 @@
         "SRC-161"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CAPenX"
+      "originalLabel": "SOG CAPenX",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-162",
@@ -5000,7 +5480,10 @@
         "SRC-162"
       ],
       "recordType": "Existing",
-      "originalLabel": "GMOB"
+      "originalLabel": "GMOB",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-163",
@@ -5030,7 +5513,10 @@
         "SRC-163"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCSS NS"
+      "originalLabel": "FCSS NS",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-164",
@@ -5060,7 +5546,10 @@
         "SRC-164"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIDPRO"
+      "originalLabel": "CIDPRO",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-165",
@@ -5091,7 +5580,10 @@
         "SRC-165"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSP"
+      "originalLabel": "CCSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-166",
@@ -5122,7 +5614,10 @@
         "SRC-166"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCP PCS"
+      "originalLabel": "FCP PCS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-167",
@@ -5153,7 +5648,10 @@
         "SRC-167"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCP SO"
+      "originalLabel": "FCP SO",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-168",
@@ -5184,7 +5682,10 @@
         "SRC-168"
       ],
       "recordType": "Existing",
-      "originalLabel": "RHCSA"
+      "originalLabel": "RHCSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-169",
@@ -5215,7 +5716,10 @@
         "SRC-169"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISA CDS"
+      "originalLabel": "ISA CDS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-170",
@@ -5245,7 +5749,10 @@
         "SRC-170"
       ],
       "recordType": "Existing",
-      "originalLabel": "SFCTA"
+      "originalLabel": "SFCTA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-171",
@@ -5275,7 +5782,10 @@
         "SRC-171"
       ],
       "recordType": "Existing",
-      "originalLabel": "EPDPP"
+      "originalLabel": "EPDPP",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-172",
@@ -5305,7 +5815,10 @@
         "SRC-172"
       ],
       "recordType": "Existing",
-      "originalLabel": "M_o_R P"
+      "originalLabel": "M_o_R P",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-173",
@@ -5335,7 +5848,10 @@
         "SRC-173"
       ],
       "recordType": "Existing",
-      "originalLabel": "CPD"
+      "originalLabel": "CPD",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-174",
@@ -5365,7 +5881,10 @@
         "SRC-174"
       ],
       "recordType": "Existing",
-      "originalLabel": "PMI ACP"
+      "originalLabel": "PMI ACP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-175",
@@ -5396,7 +5915,10 @@
         "SRC-175"
       ],
       "recordType": "Existing",
-      "originalLabel": "EISM"
+      "originalLabel": "EISM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-176",
@@ -5427,7 +5949,10 @@
         "SRC-176"
       ],
       "recordType": "Existing",
-      "originalLabel": "CGEIT"
+      "originalLabel": "CGEIT",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-177",
@@ -5458,7 +5983,10 @@
         "SRC-177"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN 27001E"
+      "originalLabel": "EXIN 27001E",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-178",
@@ -5489,7 +6017,10 @@
         "SRC-178"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27005LM"
+      "originalLabel": "PECB 27005LM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-179",
@@ -5519,7 +6050,10 @@
         "SRC-179"
       ],
       "recordType": "Existing",
-      "originalLabel": "DCCRP"
+      "originalLabel": "DCCRP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-180",
@@ -5550,7 +6084,10 @@
         "SRC-180"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCIA"
+      "originalLabel": "GCIA",
+      "originalTileSpan": 3,
+      "originalTileClass": "testitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-181",
@@ -5580,7 +6117,10 @@
         "SRC-181"
       ],
       "recordType": "Existing",
-      "originalLabel": "CTPRA"
+      "originalLabel": "CTPRA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-182",
@@ -5610,7 +6150,10 @@
         "SRC-182"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27001LA"
+      "originalLabel": "PECB 27001LA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-183",
@@ -5640,7 +6183,10 @@
         "SRC-183"
       ],
       "recordType": "Existing",
-      "originalLabel": "DevNet Pro"
+      "originalLabel": "DevNet Pro",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-184",
@@ -5670,7 +6216,10 @@
         "SRC-184"
       ],
       "recordType": "Existing",
-      "originalLabel": "SC-400"
+      "originalLabel": "SC-400",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-185",
@@ -5700,7 +6249,10 @@
         "SRC-185"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCE"
+      "originalLabel": "CCE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-186",
@@ -5731,7 +6283,10 @@
         "SRC-186"
       ],
       "recordType": "Existing",
-      "originalLabel": "CM)DFI"
+      "originalLabel": "CM)DFI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-187",
@@ -5762,7 +6317,10 @@
         "SRC-187"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CRIA"
+      "originalLabel": "CREST CRIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-188",
@@ -5793,7 +6351,10 @@
         "SRC-188"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CRTIA"
+      "originalLabel": "CREST CRTIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-189",
@@ -5824,7 +6385,10 @@
         "SRC-189"
       ],
       "recordType": "Existing",
-      "originalLabel": "GWAPT"
+      "originalLabel": "GWAPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-190",
@@ -5855,7 +6419,10 @@
         "SRC-190"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSMR"
+      "originalLabel": "OSMR",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-191",
@@ -5886,7 +6453,10 @@
         "SRC-191"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCPT"
+      "originalLabel": "GCPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-192",
@@ -5917,7 +6487,10 @@
         "SRC-192"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCPenX-AWS"
+      "originalLabel": "CCPenX-AWS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-193",
@@ -5947,7 +6520,10 @@
         "SRC-193"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSE"
+      "originalLabel": "CCSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-194",
@@ -5979,7 +6555,10 @@
         "SRC-194"
       ],
       "recordType": "Existing",
-      "originalLabel": "AWS CSS"
+      "originalLabel": "AWS CSS",
+      "originalTileSpan": 3,
+      "originalTileClass": "engineeritem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-195",
@@ -6010,7 +6589,10 @@
         "SRC-195"
       ],
       "recordType": "Existing",
-      "originalLabel": "SFCCCC"
+      "originalLabel": "SFCCCC",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-196",
@@ -6041,7 +6623,10 @@
         "SRC-196"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN PCSA"
+      "originalLabel": "EXIN PCSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-197",
@@ -6072,7 +6657,10 @@
         "SRC-197"
       ],
       "recordType": "Existing",
-      "originalLabel": "CKA"
+      "originalLabel": "CKA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-198",
@@ -6103,7 +6691,10 @@
         "SRC-198"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV COTCP"
+      "originalLabel": "TUV COTCP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-199",
@@ -6133,7 +6724,10 @@
         "SRC-199"
       ],
       "recordType": "Existing",
-      "originalLabel": "SABSA SCF"
+      "originalLabel": "SABSA SCF",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-200",
@@ -6163,7 +6757,10 @@
         "SRC-200"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIPA"
+      "originalLabel": "CIPA",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-201",
@@ -6193,7 +6790,10 @@
         "SRC-201"
       ],
       "recordType": "Existing",
-      "originalLabel": "DCPP"
+      "originalLabel": "DCPP",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-202",
@@ -6223,7 +6823,10 @@
         "SRC-202"
       ],
       "recordType": "Existing",
-      "originalLabel": "Scrum PAL"
+      "originalLabel": "Scrum PAL",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-203",
@@ -6253,7 +6856,10 @@
         "SRC-203"
       ],
       "recordType": "Existing",
-      "originalLabel": "CAPM"
+      "originalLabel": "CAPM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-204",
@@ -6283,7 +6889,10 @@
         "SRC-204"
       ],
       "recordType": "Existing",
-      "originalLabel": "PSM II"
+      "originalLabel": "PSM II",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-205",
@@ -6314,7 +6923,10 @@
         "SRC-205"
       ],
       "recordType": "Existing",
-      "originalLabel": "APMG 20000P"
+      "originalLabel": "APMG 20000P",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-206",
@@ -6345,7 +6957,10 @@
         "SRC-206"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)ISRM"
+      "originalLabel": "C)ISRM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-207",
@@ -6376,7 +6991,10 @@
         "SRC-207"
       ],
       "recordType": "Existing",
-      "originalLabel": "APMG 27001P"
+      "originalLabel": "APMG 27001P",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-208",
@@ -6407,7 +7025,10 @@
         "SRC-208"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27001LI"
+      "originalLabel": "PECB 27001LI",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-209",
@@ -6438,7 +7059,10 @@
         "SRC-209"
       ],
       "recordType": "Existing",
-      "originalLabel": "IS20"
+      "originalLabel": "IS20",
+      "originalTileSpan": 3,
+      "originalTileClass": "testitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-210",
@@ -6468,7 +7092,10 @@
         "SRC-210"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)ISSA"
+      "originalLabel": "C)ISSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-211",
@@ -6498,7 +7125,10 @@
         "SRC-211"
       ],
       "recordType": "Existing",
-      "originalLabel": "APMG 27001A"
+      "originalLabel": "APMG 27001A",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-212",
@@ -6528,7 +7158,10 @@
         "SRC-212"
       ],
       "recordType": "Existing",
-      "originalLabel": "CASE"
+      "originalLabel": "CASE",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-213",
@@ -6558,7 +7191,10 @@
         "SRC-213"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)DRE"
+      "originalLabel": "C)DRE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-214",
@@ -6588,7 +7224,10 @@
         "SRC-214"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSOC"
+      "originalLabel": "GSOC",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-215",
@@ -6619,7 +7258,10 @@
         "SRC-215"
       ],
       "recordType": "Existing",
-      "originalLabel": "GBFA"
+      "originalLabel": "GBFA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-216",
@@ -6651,7 +7293,10 @@
         "SRC-216"
       ],
       "recordType": "Existing",
-      "originalLabel": "BTL1"
+      "originalLabel": "BTL1",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-217",
@@ -6682,7 +7327,10 @@
         "SRC-217"
       ],
       "recordType": "Existing",
-      "originalLabel": "MBT"
+      "originalLabel": "MBT",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-218",
@@ -6713,7 +7361,10 @@
         "SRC-218"
       ],
       "recordType": "Existing",
-      "originalLabel": "MPT"
+      "originalLabel": "MPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-219",
@@ -6744,7 +7395,10 @@
         "SRC-219"
       ],
       "recordType": "Existing",
-      "originalLabel": "CPENT"
+      "originalLabel": "CPENT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-220",
@@ -6775,7 +7429,10 @@
         "SRC-220"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CCTAPP"
+      "originalLabel": "CREST CCTAPP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-221",
@@ -6806,7 +7463,10 @@
         "SRC-221"
       ],
       "recordType": "Existing",
-      "originalLabel": "HTB CPTS"
+      "originalLabel": "HTB CPTS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-222",
@@ -6837,7 +7497,10 @@
         "SRC-222"
       ],
       "recordType": "Existing",
-      "originalLabel": "MRE"
+      "originalLabel": "MRE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-223",
@@ -6867,7 +7530,10 @@
         "SRC-223"
       ],
       "recordType": "Existing",
-      "originalLabel": "JNCIS Sec"
+      "originalLabel": "JNCIS Sec",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-224",
@@ -6898,7 +7564,9 @@
         "SRC-224"
       ],
       "recordType": "Existing",
-      "originalLabel": "Programming Language"
+      "originalLabel": "Programming Language",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-225",
@@ -6928,7 +7596,10 @@
         "SRC-225"
       ],
       "recordType": "Existing",
-      "originalLabel": "GMLE"
+      "originalLabel": "GMLE",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-226",
@@ -6958,7 +7629,10 @@
         "SRC-226"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CCHIA"
+      "originalLabel": "CREST CCHIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-227",
@@ -6989,7 +7663,10 @@
         "SRC-227"
       ],
       "recordType": "Existing",
-      "originalLabel": "EnCE"
+      "originalLabel": "EnCE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-228",
@@ -7020,7 +7697,10 @@
         "SRC-228"
       ],
       "recordType": "Existing",
-      "originalLabel": "ACE"
+      "originalLabel": "ACE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-229",
@@ -7051,7 +7731,10 @@
         "SRC-229"
       ],
       "recordType": "Existing",
-      "originalLabel": "eCIR"
+      "originalLabel": "eCIR",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-230",
@@ -7082,7 +7765,10 @@
         "SRC-230"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)IHE"
+      "originalLabel": "C)IHE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-231",
@@ -7113,7 +7799,10 @@
         "SRC-231"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSTL"
+      "originalLabel": "CSTL",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-232",
@@ -7144,7 +7833,10 @@
         "SRC-232"
       ],
       "recordType": "Existing",
-      "originalLabel": "eCPPT"
+      "originalLabel": "eCPPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-233",
@@ -7175,7 +7867,10 @@
         "SRC-233"
       ],
       "recordType": "Existing",
-      "originalLabel": "eWPT"
+      "originalLabel": "eWPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-234",
@@ -7206,7 +7901,10 @@
         "SRC-234"
       ],
       "recordType": "Existing",
-      "originalLabel": "CM)IPS"
+      "originalLabel": "CM)IPS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-235",
@@ -7237,7 +7935,10 @@
         "SRC-235"
       ],
       "recordType": "Existing",
-      "originalLabel": "HTB CBBH"
+      "originalLabel": "HTB CBBH",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-236",
@@ -7268,7 +7969,10 @@
         "SRC-236"
       ],
       "recordType": "Existing",
-      "originalLabel": "PJMR"
+      "originalLabel": "PJMR",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-237",
@@ -7298,7 +8002,10 @@
         "SRC-237"
       ],
       "recordType": "Existing",
-      "originalLabel": "F5 CTS APM"
+      "originalLabel": "F5 CTS APM",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-238",
@@ -7328,7 +8035,10 @@
         "SRC-238"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCP NS"
+      "originalLabel": "FCP NS",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-239",
@@ -7358,7 +8068,10 @@
         "SRC-239"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCNA"
+      "originalLabel": "CCNA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-240",
@@ -7390,7 +8103,10 @@
         "SRC-240"
       ],
       "recordType": "Existing",
-      "originalLabel": "AZ-500"
+      "originalLabel": "AZ-500",
+      "originalTileSpan": 3,
+      "originalTileClass": "engineeritem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-241",
@@ -7421,7 +8137,10 @@
         "SRC-241"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSA CGC"
+      "originalLabel": "CSA CGC",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-242",
@@ -7452,7 +8171,10 @@
         "SRC-242"
       ],
       "recordType": "Existing",
-      "originalLabel": "VCP NV"
+      "originalLabel": "VCP NV",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-243",
@@ -7483,7 +8205,10 @@
         "SRC-243"
       ],
       "recordType": "Existing",
-      "originalLabel": "CKAD"
+      "originalLabel": "CKAD",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-244",
@@ -7514,7 +8239,10 @@
         "SRC-244"
       ],
       "recordType": "Existing",
-      "originalLabel": "LPIC-2"
+      "originalLabel": "LPIC-2",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-245",
@@ -7545,7 +8273,10 @@
         "SRC-245"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCIP"
+      "originalLabel": "GCIP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-247",
@@ -7576,7 +8307,10 @@
         "SRC-247"
       ],
       "recordType": "Existing",
-      "originalLabel": "CDP"
+      "originalLabel": "CDP",
+      "originalTileSpan": 3,
+      "originalTileClass": "assetitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-248",
@@ -7606,7 +8340,10 @@
         "SRC-248"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCP"
+      "originalLabel": "CCP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-249",
@@ -7637,7 +8374,10 @@
         "SRC-249"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)ISSO"
+      "originalLabel": "C)ISSO",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-250",
@@ -7668,7 +8408,10 @@
         "SRC-250"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIS RM"
+      "originalLabel": "CIS RM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-251",
@@ -7699,7 +8442,10 @@
         "SRC-251"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN 27001P"
+      "originalLabel": "EXIN 27001P",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-252",
@@ -7730,7 +8476,10 @@
         "SRC-252"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27032CM"
+      "originalLabel": "PECB 27032CM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-253",
@@ -7760,7 +8509,10 @@
         "SRC-253"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)HISSP"
+      "originalLabel": "C)HISSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-254",
@@ -7791,7 +8543,10 @@
         "SRC-254"
       ],
       "recordType": "Existing",
-      "originalLabel": "APMG 20000A"
+      "originalLabel": "APMG 20000A",
+      "originalTileSpan": 3,
+      "originalTileClass": "testitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-255",
@@ -7821,7 +8576,10 @@
         "SRC-255"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)ISMS-LA"
+      "originalLabel": "C)ISMS-LA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-256",
@@ -7851,7 +8609,10 @@
         "SRC-256"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIS IA"
+      "originalLabel": "CIS IA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-257",
@@ -7881,7 +8642,10 @@
         "SRC-257"
       ],
       "recordType": "Existing",
-      "originalLabel": "CASST"
+      "originalLabel": "CASST",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-258",
@@ -7911,7 +8675,10 @@
         "SRC-258"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSIP"
+      "originalLabel": "OSIP",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-259",
@@ -7941,7 +8708,10 @@
         "SRC-259"
       ],
       "recordType": "Existing",
-      "originalLabel": "Cisco COA"
+      "originalLabel": "Cisco COA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-260",
@@ -7972,7 +8742,10 @@
         "SRC-260"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)CSA"
+      "originalLabel": "C)CSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-261",
@@ -8003,7 +8776,10 @@
         "SRC-261"
       ],
       "recordType": "Existing",
-      "originalLabel": "CHFI"
+      "originalLabel": "CHFI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-262",
@@ -8034,7 +8810,10 @@
         "SRC-262"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-TA"
+      "originalLabel": "S-TA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-263",
@@ -8065,7 +8844,10 @@
         "SRC-263"
       ],
       "recordType": "Existing",
-      "originalLabel": "ECIH"
+      "originalLabel": "ECIH",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-264",
@@ -8096,7 +8878,10 @@
         "SRC-264"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)PSH"
+      "originalLabel": "C)PSH",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-265",
@@ -8127,7 +8912,10 @@
         "SRC-265"
       ],
       "recordType": "Existing",
-      "originalLabel": "CMWAPT"
+      "originalLabel": "CMWAPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-266",
@@ -8158,7 +8946,10 @@
         "SRC-266"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)PTC"
+      "originalLabel": "C)PTC",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-267",
@@ -8189,7 +8980,10 @@
         "SRC-267"
       ],
       "recordType": "Existing",
-      "originalLabel": "CRTOP"
+      "originalLabel": "CRTOP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-268",
@@ -8220,7 +9014,10 @@
         "SRC-268"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSR"
+      "originalLabel": "CSR",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-269",
@@ -8250,7 +9047,10 @@
         "SRC-269"
       ],
       "recordType": "Existing",
-      "originalLabel": "F5 CTS DNS"
+      "originalLabel": "F5 CTS DNS",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-270",
@@ -8280,7 +9080,10 @@
         "SRC-270"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCDRA"
+      "originalLabel": "PCDRA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-271",
@@ -8310,7 +9113,10 @@
         "SRC-271"
       ],
       "recordType": "Existing",
-      "originalLabel": "SF CIAMD"
+      "originalLabel": "SF CIAMD",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-272",
@@ -8341,7 +9147,10 @@
         "SRC-272"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCLD"
+      "originalLabel": "GCLD",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-273",
@@ -8372,7 +9181,10 @@
         "SRC-273"
       ],
       "recordType": "Existing",
-      "originalLabel": "AWS SAA"
+      "originalLabel": "AWS SAA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-274",
@@ -8403,7 +9215,10 @@
         "SRC-274"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN PCSerM"
+      "originalLabel": "EXIN PCSerM",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-275",
@@ -8434,7 +9249,10 @@
         "SRC-275"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISA CRAS"
+      "originalLabel": "ISA CRAS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-276",
@@ -8464,7 +9282,9 @@
         "SRC-276"
       ],
       "recordType": "Existing",
-      "originalLabel": "SPLK-"
+      "originalLabel": "SPLK-",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-277",
@@ -8495,7 +9315,10 @@
         "SRC-277"
       ],
       "recordType": "Existing",
-      "originalLabel": "BCS PCIAA"
+      "originalLabel": "BCS PCIAA",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-278",
@@ -8525,7 +9348,10 @@
         "SRC-278"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSA"
+      "originalLabel": "CCSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-279",
@@ -8555,7 +9381,10 @@
         "SRC-279"
       ],
       "recordType": "Existing",
-      "originalLabel": "PPM"
+      "originalLabel": "PPM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-280",
@@ -8586,7 +9415,10 @@
         "SRC-280"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)ISSM"
+      "originalLabel": "C)ISSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-281",
@@ -8617,7 +9449,10 @@
         "SRC-281"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV ITSM"
+      "originalLabel": "TUV ITSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-282",
@@ -8648,7 +9483,10 @@
         "SRC-282"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCRMP"
+      "originalLabel": "CCRMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-283",
@@ -8679,7 +9517,10 @@
         "SRC-283"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27005RM"
+      "originalLabel": "PECB 27005RM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-284",
@@ -8709,7 +9550,10 @@
         "SRC-284"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSBA"
+      "originalLabel": "CSBA",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-285",
@@ -8740,7 +9584,10 @@
         "SRC-285"
       ],
       "recordType": "Existing",
-      "originalLabel": "DCBCLA"
+      "originalLabel": "DCBCLA",
+      "originalTileSpan": 3,
+      "originalTileClass": "testitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-286",
@@ -8770,7 +9617,10 @@
         "SRC-286"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV MSA"
+      "originalLabel": "TUV MSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-287",
@@ -8800,7 +9650,10 @@
         "SRC-287"
       ],
       "recordType": "Existing",
-      "originalLabel": "DevNet A"
+      "originalLabel": "DevNet A",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-288",
@@ -8830,7 +9683,10 @@
         "SRC-288"
       ],
       "recordType": "Existing",
-      "originalLabel": "CySA+"
+      "originalLabel": "CySA+",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-289",
@@ -8860,7 +9716,10 @@
         "SRC-289"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSX-P"
+      "originalLabel": "CSX-P",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-290",
@@ -8891,7 +9750,10 @@
         "SRC-290"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)NFE"
+      "originalLabel": "C)NFE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-291",
@@ -8922,7 +9784,10 @@
         "SRC-291"
       ],
       "recordType": "Existing",
-      "originalLabel": "GOSI"
+      "originalLabel": "GOSI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-292",
@@ -8953,7 +9818,10 @@
         "SRC-292"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)TIA"
+      "originalLabel": "C)TIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-293",
@@ -8985,7 +9853,10 @@
         "SRC-293"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSDA"
+      "originalLabel": "OSDA",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-294",
@@ -9016,7 +9887,10 @@
         "SRC-294"
       ],
       "recordType": "Existing",
-      "originalLabel": "eMAPT"
+      "originalLabel": "eMAPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-295",
@@ -9047,7 +9921,10 @@
         "SRC-295"
       ],
       "recordType": "Existing",
-      "originalLabel": "BSCP"
+      "originalLabel": "BSCP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-296",
@@ -9078,7 +9955,10 @@
         "SRC-296"
       ],
       "recordType": "Existing",
-      "originalLabel": "OPST"
+      "originalLabel": "OPST",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-297",
@@ -9109,7 +9989,10 @@
         "SRC-297"
       ],
       "recordType": "Existing",
-      "originalLabel": "OSWA"
+      "originalLabel": "OSWA",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-298",
@@ -9140,7 +10023,10 @@
         "SRC-298"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREA"
+      "originalLabel": "CREA",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-299",
@@ -9170,7 +10056,10 @@
         "SRC-299"
       ],
       "recordType": "Existing",
-      "originalLabel": "CWSP"
+      "originalLabel": "CWSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-300",
@@ -9200,7 +10089,10 @@
         "SRC-300"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CCNIA"
+      "originalLabel": "CREST CCNIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-301",
@@ -9230,7 +10122,10 @@
         "SRC-301"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIGE"
+      "originalLabel": "CIGE",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-302",
@@ -9261,7 +10156,10 @@
         "SRC-302"
       ],
       "recordType": "Existing",
-      "originalLabel": "AZ-104"
+      "originalLabel": "AZ-104",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-303",
@@ -9292,7 +10190,10 @@
         "SRC-303"
       ],
       "recordType": "Existing",
-      "originalLabel": "CLCSM"
+      "originalLabel": "CLCSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-304",
@@ -9323,7 +10224,10 @@
         "SRC-304"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSE"
+      "originalLabel": "CCSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-305",
@@ -9354,7 +10258,10 @@
         "SRC-305"
       ],
       "recordType": "Existing",
-      "originalLabel": "MCSE"
+      "originalLabel": "MCSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-306",
@@ -9384,7 +10291,10 @@
         "SRC-306"
       ],
       "recordType": "Existing",
-      "originalLabel": "SFSA"
+      "originalLabel": "SFSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-307",
@@ -9415,7 +10325,10 @@
         "SRC-307"
       ],
       "recordType": "Existing",
-      "originalLabel": "ASIS APP"
+      "originalLabel": "ASIS APP",
+      "originalTileSpan": 3,
+      "originalTileClass": "assetitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-308",
@@ -9445,7 +10358,10 @@
         "SRC-308"
       ],
       "recordType": "Existing",
-      "originalLabel": "CNDA"
+      "originalLabel": "CNDA",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-309",
@@ -9475,7 +10391,10 @@
         "SRC-309"
       ],
       "recordType": "Existing",
-      "originalLabel": "DACRP"
+      "originalLabel": "DACRP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-310",
@@ -9506,7 +10425,10 @@
         "SRC-310"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISRM"
+      "originalLabel": "CISRM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-311",
@@ -9537,7 +10459,10 @@
         "SRC-311"
       ],
       "recordType": "Existing",
-      "originalLabel": "DCRMP"
+      "originalLabel": "DCRMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-312",
@@ -9568,7 +10493,10 @@
         "SRC-312"
       ],
       "recordType": "Existing",
-      "originalLabel": "SSAP"
+      "originalLabel": "SSAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-313",
@@ -9599,7 +10527,10 @@
         "SRC-313"
       ],
       "recordType": "Existing",
-      "originalLabel": "GRCP"
+      "originalLabel": "GRCP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-314",
@@ -9629,7 +10560,10 @@
         "SRC-314"
       ],
       "recordType": "Existing",
-      "originalLabel": "SACP"
+      "originalLabel": "SACP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-315",
@@ -9659,7 +10593,10 @@
         "SRC-315"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISP"
+      "originalLabel": "CISP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-316",
@@ -9689,7 +10626,10 @@
         "SRC-316"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV Auditor"
+      "originalLabel": "TUV Auditor",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-317",
@@ -9719,7 +10659,10 @@
         "SRC-317"
       ],
       "recordType": "Existing",
-      "originalLabel": "CTPRP"
+      "originalLabel": "CTPRP",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-318",
@@ -9749,7 +10692,10 @@
         "SRC-318"
       ],
       "recordType": "Existing",
-      "originalLabel": "IIA CIA"
+      "originalLabel": "IIA CIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-319",
@@ -9779,7 +10725,10 @@
         "SRC-319"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSC"
+      "originalLabel": "CCSC",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-320",
@@ -9809,7 +10758,10 @@
         "SRC-320"
       ],
       "recordType": "Existing",
-      "originalLabel": "SC-200"
+      "originalLabel": "SC-200",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-321",
@@ -9839,7 +10791,10 @@
         "SRC-321"
       ],
       "recordType": "Existing",
-      "originalLabel": "MRCI"
+      "originalLabel": "MRCI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-322",
@@ -9870,7 +10825,10 @@
         "SRC-322"
       ],
       "recordType": "Existing",
-      "originalLabel": "EDRP"
+      "originalLabel": "EDRP",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-323",
@@ -9901,7 +10859,10 @@
         "SRC-323"
       ],
       "recordType": "Existing",
-      "originalLabel": "HTB CDSA"
+      "originalLabel": "HTB CDSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-324",
@@ -9932,7 +10893,10 @@
         "SRC-324"
       ],
       "recordType": "Existing",
-      "originalLabel": "CFR"
+      "originalLabel": "CFR",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-325",
@@ -9963,7 +10927,10 @@
         "SRC-325"
       ],
       "recordType": "Existing",
-      "originalLabel": "CTIA"
+      "originalLabel": "CTIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-326",
@@ -9994,7 +10961,10 @@
         "SRC-326"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSTM"
+      "originalLabel": "CSTM",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-327",
@@ -10025,7 +10995,10 @@
         "SRC-327"
       ],
       "recordType": "Existing",
-      "originalLabel": "eJPT"
+      "originalLabel": "eJPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-328",
@@ -10056,7 +11029,10 @@
         "SRC-328"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-EHP"
+      "originalLabel": "S-EHP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-329",
@@ -10087,7 +11063,10 @@
         "SRC-329"
       ],
       "recordType": "Existing",
-      "originalLabel": "CHAT"
+      "originalLabel": "CHAT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-330",
@@ -10118,7 +11097,10 @@
         "SRC-330"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CPSA"
+      "originalLabel": "CREST CPSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-331",
@@ -10148,7 +11130,10 @@
         "SRC-331"
       ],
       "recordType": "Existing",
-      "originalLabel": "F5 CA"
+      "originalLabel": "F5 CA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-332",
@@ -10178,7 +11163,10 @@
         "SRC-332"
       ],
       "recordType": "Existing",
-      "originalLabel": "eNDP"
+      "originalLabel": "eNDP",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-333",
@@ -10208,7 +11196,10 @@
         "SRC-333"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIST"
+      "originalLabel": "CIST",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-334",
@@ -10239,7 +11230,10 @@
         "SRC-334"
       ],
       "recordType": "Existing",
-      "originalLabel": "Google PCSE"
+      "originalLabel": "Google PCSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-335",
@@ -10270,7 +11264,10 @@
         "SRC-335"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN PCSM"
+      "originalLabel": "EXIN PCSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-336",
@@ -10301,7 +11298,10 @@
         "SRC-336"
       ],
       "recordType": "Existing",
-      "originalLabel": "MDSO"
+      "originalLabel": "MDSO",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-337",
@@ -10332,7 +11332,10 @@
         "SRC-337"
       ],
       "recordType": "Existing",
-      "originalLabel": "SCA"
+      "originalLabel": "SCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-338",
@@ -10363,7 +11366,10 @@
         "SRC-338"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISA CAP"
+      "originalLabel": "ISA CAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-339",
@@ -10393,7 +11399,10 @@
         "SRC-339"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV COSM"
+      "originalLabel": "TUV COSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-340",
@@ -10423,7 +11432,10 @@
         "SRC-340"
       ],
       "recordType": "Existing",
-      "originalLabel": "Zach EAA"
+      "originalLabel": "Zach EAA",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-341",
@@ -10453,7 +11465,10 @@
         "SRC-341"
       ],
       "recordType": "Existing",
-      "originalLabel": "CAD"
+      "originalLabel": "CAD",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-342",
@@ -10483,7 +11498,10 @@
         "SRC-342"
       ],
       "recordType": "Existing",
-      "originalLabel": "CAC"
+      "originalLabel": "CAC",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-343",
@@ -10514,7 +11532,10 @@
         "SRC-343"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISMI CSMP"
+      "originalLabel": "ISMI CSMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-344",
@@ -10545,7 +11566,10 @@
         "SRC-344"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSCS"
+      "originalLabel": "CSCS",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-345",
@@ -10576,7 +11600,10 @@
         "SRC-345"
       ],
       "recordType": "Existing",
-      "originalLabel": "APMG 27001F"
+      "originalLabel": "APMG 27001F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-346",
@@ -10607,7 +11634,10 @@
         "SRC-346"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27001F"
+      "originalLabel": "PECB 27001F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-347",
@@ -10637,7 +11667,10 @@
         "SRC-347"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)SLO"
+      "originalLabel": "C)SLO",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-348",
@@ -10668,7 +11701,10 @@
         "SRC-348"
       ],
       "recordType": "Existing",
-      "originalLabel": "DCBCA"
+      "originalLabel": "DCBCA",
+      "originalTileSpan": 3,
+      "originalTileClass": "testitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-349",
@@ -10698,7 +11734,10 @@
         "SRC-349"
       ],
       "recordType": "Existing",
-      "originalLabel": "GRCA"
+      "originalLabel": "GRCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-350",
@@ -10728,7 +11767,10 @@
         "SRC-350"
       ],
       "recordType": "Existing",
-      "originalLabel": "CISST"
+      "originalLabel": "CISST",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-351",
@@ -10758,7 +11800,10 @@
         "SRC-351"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)SWAE"
+      "originalLabel": "C)SWAE",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-352",
@@ -10788,7 +11833,10 @@
         "SRC-352"
       ],
       "recordType": "Existing",
-      "originalLabel": "OPSA"
+      "originalLabel": "OPSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-353",
@@ -10818,7 +11866,10 @@
         "SRC-353"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSAE"
+      "originalLabel": "CSAE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-354",
@@ -10849,7 +11900,10 @@
         "SRC-354"
       ],
       "recordType": "Existing",
-      "originalLabel": "ASIS PCI"
+      "originalLabel": "ASIS PCI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-355",
@@ -10880,7 +11934,10 @@
         "SRC-355"
       ],
       "recordType": "Existing",
-      "originalLabel": "MAD SOCA"
+      "originalLabel": "MAD SOCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-356",
@@ -10911,7 +11968,10 @@
         "SRC-356"
       ],
       "recordType": "Existing",
-      "originalLabel": "MAD CTI"
+      "originalLabel": "MAD CTI",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-357",
@@ -10943,7 +12003,10 @@
         "SRC-357"
       ],
       "recordType": "Existing",
-      "originalLabel": "CEH"
+      "originalLabel": "CEH",
+      "originalTileSpan": 2,
+      "originalTileClass": "redopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-358",
@@ -10974,7 +12037,10 @@
         "SRC-358"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CAPen"
+      "originalLabel": "SOG CAPen",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-359",
@@ -11005,7 +12071,10 @@
         "SRC-359"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)PTE"
+      "originalLabel": "C)PTE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-360",
@@ -11036,7 +12105,10 @@
         "SRC-360"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CNPen"
+      "originalLabel": "SOG CNPen",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-361",
@@ -11067,7 +12139,10 @@
         "SRC-361"
       ],
       "recordType": "Existing",
-      "originalLabel": "DV RTOS"
+      "originalLabel": "DV RTOS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-362",
@@ -11098,7 +12173,10 @@
         "SRC-362"
       ],
       "recordType": "Existing",
-      "originalLabel": "DV OTD"
+      "originalLabel": "DV OTD",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-363",
@@ -11129,7 +12207,10 @@
         "SRC-363"
       ],
       "recordType": "Existing",
-      "originalLabel": "MVRE"
+      "originalLabel": "MVRE",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-364",
@@ -11159,7 +12240,10 @@
         "SRC-364"
       ],
       "recordType": "Existing",
-      "originalLabel": "MNSE"
+      "originalLabel": "MNSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-365",
@@ -11189,7 +12273,10 @@
         "SRC-365"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCNSA"
+      "originalLabel": "PCNSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-366",
@@ -11219,7 +12306,10 @@
         "SRC-366"
       ],
       "recordType": "Existing",
-      "originalLabel": "OWSE"
+      "originalLabel": "OWSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-367",
@@ -11249,7 +12339,10 @@
         "SRC-367"
       ],
       "recordType": "Existing",
-      "originalLabel": "SC-300"
+      "originalLabel": "SC-300",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-368",
@@ -11280,7 +12373,10 @@
         "SRC-368"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSA CCSK"
+      "originalLabel": "CSA CCSK",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-369",
@@ -11311,7 +12407,10 @@
         "SRC-369"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)CSO"
+      "originalLabel": "C)CSO",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-370",
@@ -11342,7 +12441,10 @@
         "SRC-370"
       ],
       "recordType": "Existing",
-      "originalLabel": "DCA"
+      "originalLabel": "DCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-371",
@@ -11373,7 +12475,10 @@
         "SRC-371"
       ],
       "recordType": "Existing",
-      "originalLabel": "LPIC-1"
+      "originalLabel": "LPIC-1",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-372",
@@ -11404,7 +12509,10 @@
         "SRC-372"
       ],
       "recordType": "Existing",
-      "originalLabel": "GICSP"
+      "originalLabel": "GICSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-373",
@@ -11435,7 +12543,9 @@
         "SRC-373"
       ],
       "recordType": "Existing",
-      "originalLabel": "GSEC"
+      "originalLabel": "GSEC",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-374",
@@ -11465,7 +12575,10 @@
         "SRC-374"
       ],
       "recordType": "Existing",
-      "originalLabel": "MOIS"
+      "originalLabel": "MOIS",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-375",
@@ -11496,7 +12609,10 @@
         "SRC-375"
       ],
       "recordType": "Existing",
-      "originalLabel": "CFA"
+      "originalLabel": "CFA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-376",
@@ -11527,7 +12643,10 @@
         "SRC-376"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSA"
+      "originalLabel": "CSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-377",
@@ -11559,7 +12678,10 @@
         "SRC-377"
       ],
       "recordType": "Existing",
-      "originalLabel": "GFACT"
+      "originalLabel": "GFACT",
+      "originalTileSpan": 2,
+      "originalTileClass": "blueopsitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-378",
@@ -11590,7 +12712,10 @@
         "SRC-378"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CMPen And"
+      "originalLabel": "SOG CMPen And",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-379",
@@ -11621,7 +12746,10 @@
         "SRC-379"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CMPen iOS"
+      "originalLabel": "SOG CMPen iOS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-380",
@@ -11652,7 +12780,10 @@
         "SRC-380"
       ],
       "recordType": "Existing",
-      "originalLabel": "DV MoS"
+      "originalLabel": "DV MoS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-381",
@@ -11683,7 +12814,10 @@
         "SRC-381"
       ],
       "recordType": "Existing",
-      "originalLabel": "Pentest+"
+      "originalLabel": "Pentest+",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-382",
@@ -11714,7 +12848,10 @@
         "SRC-382"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CSAS"
+      "originalLabel": "CREST CSAS",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-383",
@@ -11745,7 +12882,10 @@
         "SRC-383"
       ],
       "recordType": "Existing",
-      "originalLabel": "ECES"
+      "originalLabel": "ECES",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-384",
@@ -11775,7 +12915,10 @@
         "SRC-384"
       ],
       "recordType": "Existing",
-      "originalLabel": "JNCIA Sec"
+      "originalLabel": "JNCIA Sec",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-385",
@@ -11805,7 +12948,10 @@
         "SRC-385"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCA"
+      "originalLabel": "FCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-386",
@@ -11835,7 +12981,10 @@
         "SRC-386"
       ],
       "recordType": "Existing",
-      "originalLabel": "WCNA"
+      "originalLabel": "WCNA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-387",
@@ -11866,7 +13015,10 @@
         "SRC-387"
       ],
       "recordType": "Existing",
-      "originalLabel": "Server+"
+      "originalLabel": "Server+",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-388",
@@ -11897,7 +13049,10 @@
         "SRC-388"
       ],
       "recordType": "Existing",
-      "originalLabel": "PDSO CDP"
+      "originalLabel": "PDSO CDP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-389",
@@ -11928,7 +13083,10 @@
         "SRC-389"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN PCD"
+      "originalLabel": "EXIN PCD",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-390",
@@ -11959,7 +13117,10 @@
         "SRC-390"
       ],
       "recordType": "Existing",
-      "originalLabel": "KCNA"
+      "originalLabel": "KCNA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-391",
@@ -11990,7 +13151,10 @@
         "SRC-391"
       ],
       "recordType": "Existing",
-      "originalLabel": "Linux+"
+      "originalLabel": "Linux+",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-392",
@@ -12021,7 +13185,10 @@
         "SRC-392"
       ],
       "recordType": "Existing",
-      "originalLabel": "AZ-220"
+      "originalLabel": "AZ-220",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-393",
@@ -12051,7 +13218,10 @@
         "SRC-393"
       ],
       "recordType": "Existing",
-      "originalLabel": "CRFS"
+      "originalLabel": "CRFS",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-394",
@@ -12082,7 +13252,9 @@
         "SRC-394"
       ],
       "recordType": "Existing",
-      "originalLabel": "SSCP"
+      "originalLabel": "SSCP",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-395",
@@ -12112,7 +13284,10 @@
         "SRC-395"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CAP"
+      "originalLabel": "SOG CAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-396",
@@ -12142,7 +13317,10 @@
         "SRC-396"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCOA"
+      "originalLabel": "CCOA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-397",
@@ -12173,7 +13351,10 @@
         "SRC-397"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CPIA"
+      "originalLabel": "CREST CPIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-398",
@@ -12204,7 +13385,10 @@
         "SRC-398"
       ],
       "recordType": "Existing",
-      "originalLabel": "MESE"
+      "originalLabel": "MESE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-399",
@@ -12235,7 +13419,10 @@
         "SRC-399"
       ],
       "recordType": "Existing",
-      "originalLabel": "CREST CPTIA"
+      "originalLabel": "CREST CPTIA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-400",
@@ -12266,7 +13453,10 @@
         "SRC-400"
       ],
       "recordType": "Existing",
-      "originalLabel": "MCPT"
+      "originalLabel": "MCPT",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-401",
@@ -12297,7 +13487,10 @@
         "SRC-401"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)PEH"
+      "originalLabel": "C)PEH",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-402",
@@ -12328,7 +13521,10 @@
         "SRC-402"
       ],
       "recordType": "Existing",
-      "originalLabel": "GCPEH"
+      "originalLabel": "GCPEH",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-403",
@@ -12358,7 +13554,10 @@
         "SRC-403"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCSA"
+      "originalLabel": "CCSA",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-404",
@@ -12388,7 +13587,10 @@
         "SRC-404"
       ],
       "recordType": "Existing",
-      "originalLabel": "ITS-NS"
+      "originalLabel": "ITS-NS",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-405",
@@ -12418,7 +13620,10 @@
         "SRC-405"
       ],
       "recordType": "Existing",
-      "originalLabel": "CCT"
+      "originalLabel": "CCT",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-406",
@@ -12449,7 +13654,10 @@
         "SRC-406"
       ],
       "recordType": "Existing",
-      "originalLabel": "Cloud+"
+      "originalLabel": "Cloud+",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-407",
@@ -12480,7 +13688,10 @@
         "SRC-407"
       ],
       "recordType": "Existing",
-      "originalLabel": "Google ACE"
+      "originalLabel": "Google ACE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-408",
@@ -12511,7 +13722,10 @@
         "SRC-408"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG CCSP-AWS"
+      "originalLabel": "SOG CCSP-AWS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-409",
@@ -12542,7 +13756,10 @@
         "SRC-409"
       ],
       "recordType": "Existing",
-      "originalLabel": "LFCA"
+      "originalLabel": "LFCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-410",
@@ -12573,7 +13790,10 @@
         "SRC-410"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISA CFS"
+      "originalLabel": "ISA CFS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-411",
@@ -12603,7 +13823,10 @@
         "SRC-411"
       ],
       "recordType": "Existing",
-      "originalLabel": "EITCA/IS"
+      "originalLabel": "EITCA/IS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-412",
@@ -12633,7 +13856,10 @@
         "SRC-412"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIPP"
+      "originalLabel": "CIPP",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-413",
@@ -12664,7 +13890,9 @@
         "SRC-413"
       ],
       "recordType": "Existing",
-      "originalLabel": "Security+"
+      "originalLabel": "Security+",
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile"
     },
     {
       "id": "SRC-414",
@@ -12694,7 +13922,10 @@
         "SRC-414"
       ],
       "recordType": "Existing",
-      "originalLabel": "ECSS"
+      "originalLabel": "ECSS",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-415",
@@ -12725,7 +13956,10 @@
         "SRC-415"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)DFE"
+      "originalLabel": "C)DFE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-416",
@@ -12756,7 +13990,10 @@
         "SRC-416"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-SA"
+      "originalLabel": "S-SA",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-417",
@@ -12787,7 +14024,10 @@
         "SRC-417"
       ],
       "recordType": "Existing",
-      "originalLabel": "DV AOPH"
+      "originalLabel": "DV AOPH",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-418",
@@ -12817,7 +14057,10 @@
         "SRC-418"
       ],
       "recordType": "Existing",
-      "originalLabel": "SOG NSP"
+      "originalLabel": "SOG NSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-419",
@@ -12847,7 +14090,10 @@
         "SRC-419"
       ],
       "recordType": "Existing",
-      "originalLabel": "Net+"
+      "originalLabel": "Net+",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-420",
@@ -12877,7 +14123,10 @@
         "SRC-420"
       ],
       "recordType": "Existing",
-      "originalLabel": "CAMS"
+      "originalLabel": "CAMS",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-421",
@@ -12908,7 +14157,10 @@
         "SRC-421"
       ],
       "recordType": "Existing",
-      "originalLabel": "AZ-900"
+      "originalLabel": "AZ-900",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-422",
@@ -12939,7 +14191,10 @@
         "SRC-422"
       ],
       "recordType": "Existing",
-      "originalLabel": "MCSF"
+      "originalLabel": "MCSF",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-423",
@@ -12970,7 +14225,10 @@
         "SRC-423"
       ],
       "recordType": "Existing",
-      "originalLabel": "MSAF"
+      "originalLabel": "MSAF",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-424",
@@ -13001,7 +14259,10 @@
         "SRC-424"
       ],
       "recordType": "Existing",
-      "originalLabel": "Apple ACSP"
+      "originalLabel": "Apple ACSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-425",
@@ -13032,7 +14293,10 @@
         "SRC-425"
       ],
       "recordType": "Existing",
-      "originalLabel": "CACS"
+      "originalLabel": "CACS",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-426",
@@ -13062,7 +14326,10 @@
         "SRC-426"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV COSTE"
+      "originalLabel": "TUV COSTE",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-427",
@@ -13092,7 +14359,10 @@
         "SRC-427"
       ],
       "recordType": "Existing",
-      "originalLabel": "EPDPF"
+      "originalLabel": "EPDPF",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-428",
@@ -13123,7 +14393,10 @@
         "SRC-428"
       ],
       "recordType": "Existing",
-      "originalLabel": "TOGAF Fdn"
+      "originalLabel": "TOGAF Fdn",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-429",
@@ -13153,7 +14426,10 @@
         "SRC-429"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSP"
+      "originalLabel": "CSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-430",
@@ -13183,7 +14459,10 @@
         "SRC-430"
       ],
       "recordType": "Existing",
-      "originalLabel": "IIBA CCA"
+      "originalLabel": "IIBA CCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-431",
@@ -13214,7 +14493,10 @@
         "SRC-431"
       ],
       "recordType": "Existing",
-      "originalLabel": "CITGP"
+      "originalLabel": "CITGP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-432",
@@ -13245,7 +14527,10 @@
         "SRC-432"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)ISCAP"
+      "originalLabel": "C)ISCAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-433",
@@ -13276,7 +14561,10 @@
         "SRC-433"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSAP"
+      "originalLabel": "CSAP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-434",
@@ -13307,7 +14595,10 @@
         "SRC-434"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27032F"
+      "originalLabel": "PECB 27032F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-435",
@@ -13337,7 +14628,10 @@
         "SRC-435"
       ],
       "recordType": "Existing",
-      "originalLabel": "MCL"
+      "originalLabel": "MCL",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-436",
@@ -13367,7 +14661,10 @@
         "SRC-436"
       ],
       "recordType": "Existing",
-      "originalLabel": "ITS-C"
+      "originalLabel": "ITS-C",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-437",
@@ -13397,7 +14694,10 @@
         "SRC-437"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN CIT"
+      "originalLabel": "EXIN CIT",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-438",
@@ -13427,7 +14727,10 @@
         "SRC-438"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV CySec"
+      "originalLabel": "TUV CySec",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-439",
@@ -13457,7 +14760,10 @@
         "SRC-439"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSST"
+      "originalLabel": "CSST",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-440",
@@ -13487,7 +14793,10 @@
         "SRC-440"
       ],
       "recordType": "Existing",
-      "originalLabel": "OPSE"
+      "originalLabel": "OPSE",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-441",
@@ -13517,7 +14826,10 @@
         "SRC-441"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSX-F"
+      "originalLabel": "CSX-F",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-442",
@@ -13548,7 +14860,10 @@
         "SRC-442"
       ],
       "recordType": "Existing",
-      "originalLabel": "DV MILF"
+      "originalLabel": "DV MILF",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-443",
@@ -13579,7 +14894,10 @@
         "SRC-443"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIRM Fdn"
+      "originalLabel": "CIRM Fdn",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-444",
@@ -13610,7 +14928,10 @@
         "SRC-444"
       ],
       "recordType": "Existing",
-      "originalLabel": "EEHF"
+      "originalLabel": "EEHF",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-445",
@@ -13641,7 +14962,10 @@
         "SRC-445"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-EHF"
+      "originalLabel": "S-EHF",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-446",
@@ -13672,7 +14996,10 @@
         "SRC-446"
       ],
       "recordType": "Existing",
-      "originalLabel": "CHA"
+      "originalLabel": "CHA",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-447",
@@ -13702,7 +15029,10 @@
         "SRC-447"
       ],
       "recordType": "Existing",
-      "originalLabel": "FCF"
+      "originalLabel": "FCF",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-448",
@@ -13732,7 +15062,10 @@
         "SRC-448"
       ],
       "recordType": "Existing",
-      "originalLabel": "PCCET"
+      "originalLabel": "PCCET",
+      "originalTileSpan": 1,
+      "originalTileClass": "networkitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-449",
@@ -13763,7 +15096,10 @@
         "SRC-449"
       ],
       "recordType": "Existing",
-      "originalLabel": "AWS CP"
+      "originalLabel": "AWS CP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-450",
@@ -13794,7 +15130,10 @@
         "SRC-450"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN PCA"
+      "originalLabel": "EXIN PCA",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-451",
@@ -13825,7 +15164,10 @@
         "SRC-451"
       ],
       "recordType": "Existing",
-      "originalLabel": "A+"
+      "originalLabel": "A+",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-452",
@@ -13856,7 +15198,10 @@
         "SRC-452"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIOTSP"
+      "originalLabel": "CIOTSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-453",
@@ -13886,7 +15231,10 @@
         "SRC-453"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV COSP"
+      "originalLabel": "TUV COSP",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-454",
@@ -13916,7 +15264,10 @@
         "SRC-454"
       ],
       "recordType": "Existing",
-      "originalLabel": "EPDPE"
+      "originalLabel": "EPDPE",
+      "originalTileSpan": 1,
+      "originalTileClass": "assetitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-455",
@@ -13946,7 +15297,10 @@
         "SRC-455"
       ],
       "recordType": "Existing",
-      "originalLabel": "M_o_R Fdn"
+      "originalLabel": "M_o_R Fdn",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-456",
@@ -13976,7 +15330,10 @@
         "SRC-456"
       ],
       "recordType": "Existing",
-      "originalLabel": "Fair Fdn"
+      "originalLabel": "Fair Fdn",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-457",
@@ -14006,7 +15363,10 @@
         "SRC-457"
       ],
       "recordType": "Existing",
-      "originalLabel": "PSM I"
+      "originalLabel": "PSM I",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-458",
@@ -14037,7 +15397,10 @@
         "SRC-458"
       ],
       "recordType": "Existing",
-      "originalLabel": "APMG 20000F"
+      "originalLabel": "APMG 20000F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-459",
@@ -14068,7 +15431,10 @@
         "SRC-459"
       ],
       "recordType": "Existing",
-      "originalLabel": "ISMI CSM"
+      "originalLabel": "ISMI CSM",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-460",
@@ -14099,7 +15465,10 @@
         "SRC-460"
       ],
       "recordType": "Existing",
-      "originalLabel": "BCS FISMP"
+      "originalLabel": "BCS FISMP",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-461",
@@ -14130,7 +15499,10 @@
         "SRC-461"
       ],
       "recordType": "Existing",
-      "originalLabel": "CC"
+      "originalLabel": "CC",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-462",
@@ -14160,7 +15532,10 @@
         "SRC-462"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-ISF"
+      "originalLabel": "S-ISF",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-463",
@@ -14191,7 +15566,10 @@
         "SRC-463"
       ],
       "recordType": "Existing",
-      "originalLabel": "GISF"
+      "originalLabel": "GISF",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-464",
@@ -14221,7 +15599,10 @@
         "SRC-464"
       ],
       "recordType": "Existing",
-      "originalLabel": "TUV CyAware"
+      "originalLabel": "TUV CyAware",
+      "originalTileSpan": 1,
+      "originalTileClass": "testitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-465",
@@ -14251,7 +15632,10 @@
         "SRC-465"
       ],
       "recordType": "Existing",
-      "originalLabel": "MASE"
+      "originalLabel": "MASE",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-466",
@@ -14281,7 +15665,10 @@
         "SRC-466"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)SP"
+      "originalLabel": "C)SP",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-467",
@@ -14312,7 +15699,10 @@
         "SRC-467"
       ],
       "recordType": "Existing",
-      "originalLabel": "CND"
+      "originalLabel": "CND",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-468",
@@ -14343,7 +15733,10 @@
         "SRC-468"
       ],
       "recordType": "Existing",
-      "originalLabel": "C)VA"
+      "originalLabel": "C)VA",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-469",
@@ -14374,7 +15767,10 @@
         "SRC-469"
       ],
       "recordType": "Existing",
-      "originalLabel": "KLCP"
+      "originalLabel": "KLCP",
+      "originalTileSpan": 1,
+      "originalTileClass": "redopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-470",
@@ -14404,7 +15800,10 @@
         "SRC-470"
       ],
       "recordType": "Existing",
-      "originalLabel": "SC-900"
+      "originalLabel": "SC-900",
+      "originalTileSpan": 1,
+      "originalTileClass": "iamitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-471",
@@ -14435,7 +15834,10 @@
         "SRC-471"
       ],
       "recordType": "Existing",
-      "originalLabel": "Cloud Essnt"
+      "originalLabel": "Cloud Essnt",
+      "originalTileSpan": 1,
+      "originalTileClass": "engineeritem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-472",
@@ -14466,7 +15868,10 @@
         "SRC-472"
       ],
       "recordType": "Existing",
-      "originalLabel": "ITIL Fdn"
+      "originalLabel": "ITIL Fdn",
+      "originalTileSpan": 3,
+      "originalTileClass": "mgmtitem2",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-473",
@@ -14496,7 +15901,10 @@
         "SRC-473"
       ],
       "recordType": "Existing",
-      "originalLabel": "Project+"
+      "originalLabel": "Project+",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-474",
@@ -14526,7 +15934,10 @@
         "SRC-474"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIISec ICSF"
+      "originalLabel": "CIISec ICSF",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-475",
@@ -14557,7 +15968,10 @@
         "SRC-475"
       ],
       "recordType": "Existing",
-      "originalLabel": "FEXIN"
+      "originalLabel": "FEXIN",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-476",
@@ -14588,7 +16002,10 @@
         "SRC-476"
       ],
       "recordType": "Existing",
-      "originalLabel": "EXIN 27001F"
+      "originalLabel": "EXIN 27001F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-477",
@@ -14619,7 +16036,10 @@
         "SRC-477"
       ],
       "recordType": "Existing",
-      "originalLabel": "PECB 27005F"
+      "originalLabel": "PECB 27005F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-478",
@@ -14649,7 +16069,10 @@
         "SRC-478"
       ],
       "recordType": "Existing",
-      "originalLabel": "C CS F"
+      "originalLabel": "C CS F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-479",
@@ -14679,7 +16102,10 @@
         "SRC-479"
       ],
       "recordType": "Existing",
-      "originalLabel": "CIS F"
+      "originalLabel": "CIS F",
+      "originalTileSpan": 1,
+      "originalTileClass": "mgmtitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-480",
@@ -14709,7 +16135,10 @@
         "SRC-480"
       ],
       "recordType": "Existing",
-      "originalLabel": "S-SPF"
+      "originalLabel": "S-SPF",
+      "originalTileSpan": 1,
+      "originalTileClass": "softwareitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-481",
@@ -14739,7 +16168,10 @@
         "SRC-481"
       ],
       "recordType": "Existing",
-      "originalLabel": "CSCU"
+      "originalLabel": "CSCU",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "SRC-482",
@@ -14769,7 +16201,10 @@
         "SRC-482"
       ],
       "recordType": "Existing",
-      "originalLabel": "MICS"
+      "originalLabel": "MICS",
+      "originalTileSpan": 1,
+      "originalTileClass": "blueopsitem1",
+      "originalLayoutEvidence": "2024 original HTML class"
     },
     {
       "id": "NEW-001",
@@ -14801,7 +16236,10 @@
         "NEW-001"
       ],
       "recordType": "Proposed addition",
-      "originalLabel": null
+      "originalLabel": null,
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "plannedOnly": true
     },
     {
       "id": "NEW-002",
@@ -14833,7 +16271,10 @@
         "NEW-002"
       ],
       "recordType": "Proposed addition",
-      "originalLabel": null
+      "originalLabel": null,
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "plannedOnly": true
     },
     {
       "id": "NEW-003",
@@ -14847,8 +16288,11 @@
       "renewal": "Annual renewal assessment (eligible certifications)",
       "proficiency": 2,
       "proficiencyEvidence": "Proposed addition",
-      "primaryDomain": "Cloud/SysOps",
+      "primaryDomain": "Security Architecture and Engineering",
       "domains": [
+        "Security Architecture and Engineering",
+        "IAM",
+        "Cloud / Security Operations",
         "Cloud/SysOps",
         "AI / ML / LLM Security"
       ],
@@ -14858,13 +16302,17 @@
       "disposition": "Add (high priority)",
       "issuerURL": "https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/",
       "legacyURL": "https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/",
-      "notes": "New Azure/cloud and AI security credential replacing AZ-500.",
+      "notes": "New Azure/cloud and AI security credential replacing AZ-500. Replacement retains predecessor primary placement; proposed additional domains preserved as metadata.",
       "verifiedAt": "2026-11-21",
       "sourceIds": [
         "NEW-003"
       ],
       "recordType": "Proposed addition",
-      "originalLabel": null
+      "originalLabel": null,
+      "originalTileSpan": 3,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "originalTileClass": "engineeritem2",
+      "replaces": "SRC-240"
     },
     {
       "id": "NEW-004",
@@ -14878,8 +16326,9 @@
       "renewal": "Annual renewal assessment (eligible certifications)",
       "proficiency": 2,
       "proficiencyEvidence": "Proposed addition",
-      "primaryDomain": "Asset Security",
+      "primaryDomain": "Security Operations",
       "domains": [
+        "Security Operations",
         "Asset Security",
         "Cloud/SysOps",
         "GRC"
@@ -14890,13 +16339,17 @@
       "disposition": "Add (high priority)",
       "issuerURL": "https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/",
       "legacyURL": "https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/",
-      "notes": "Replaces SC-400 role.",
+      "notes": "Replaces SC-400 role. Replacement retains predecessor primary placement; proposed additional domains preserved as metadata.",
       "verifiedAt": "2026-11-21",
       "sourceIds": [
         "NEW-004"
       ],
       "recordType": "Proposed addition",
-      "originalLabel": null
+      "originalLabel": null,
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "originalTileClass": "blueopsitem1",
+      "replaces": "SRC-184"
     },
     {
       "id": "NEW-005",
@@ -14927,7 +16380,10 @@
         "NEW-005"
       ],
       "recordType": "Proposed addition",
-      "originalLabel": null
+      "originalLabel": null,
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "plannedOnly": true
     },
     {
       "id": "NEW-006",
@@ -14958,7 +16414,10 @@
         "NEW-006"
       ],
       "recordType": "Proposed addition",
-      "originalLabel": null
+      "originalLabel": null,
+      "originalTileSpan": 1,
+      "originalLayoutEvidence": "No matching anchor in original HTML; default single tile",
+      "plannedOnly": true
     }
   ]
 }
