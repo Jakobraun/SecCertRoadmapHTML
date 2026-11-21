@@ -62,3 +62,10 @@ The Google Sheet has a `Publication Gate` tab. Its last read showed 419 lifecycl
 These figures are a snapshot; the Google Sheet is authoritative for continuing review. The fork's `data/certifications.json` is a version-controlled export, not a live connection.
 
 **Browser visual QA remains to be done**. Source markup and CSS fidelity checks establish preservation of layout structure, not pixel-accurate screenshots in every browser and viewport.
+
+## Layout refinement — neutral headers and centered proficiency labels
+
+- Keep the original domain labels, subtitles, and subcategory organization, but override heading/subtitle text to neutral charcoal, domain frames to neutral gray, and subcategory background fills to very light gray. Credibility-based tile fills are **not** affected.
+- Increase foreground top offset from `4.8vmax` to `5.15vmax`, adding clearance between the Exploitation subtitle and the first OSEE tile.
+- Preserve each original row position by replacing row-based rotated difficulty labels with equal-width spacer cells. Render an absolutely positioned four-band left-side axis that exactly follows the four vertical row groups: 6 / 7 / 8 / 6 rows, separated by the existing three narrow breaks. Each difficulty label is centered within its whole band.
+- All modifications are in the generated standalone `index.html` and reproducible via `tools/build-standalone.mjs`.
