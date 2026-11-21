@@ -63,3 +63,26 @@ For GitHub Pages, configure Pages to serve from the repository root of the desir
 - `data/certifications.json`: audit-derived canonical source snapshot
 - `tools/validate-data.mjs`: dataset integrity checks
 - `Security-Certification-Roadmap9.html`: upstream static chart, unchanged
+
+## Revision 2 — Original-density review and publication hold (2026-11-21)
+
+Review feedback is incorporated on this branch:
+
+- Default roadmap shows only the **nine original populated top-level domain groups**. AI / ML / LLM Security and Cloud/SysOps remain queryable as planned/secondary mappings, not permanent sparse columns.
+- **SC-500 replaces AZ-500** in the original Security Architecture and Engineering domain; **SC-401 replaces SC-400** in original Security Operations. Extra mappings remain metadata.
+- Tile spans use each matching anchor's original CSS grid span from the 2024 HTML when available. Rows are repacked into four bands; pixel-perfect source X/Y coordinates are not preserved.
+- Dense CSS removes broad card padding, uses 43 proportional grid units plus proficiency labels, and uses a viewport-fitting tile-height calculation. Normal page scrolling and horizontal chart scrolling are disabled for the default desktop layout. Prices remain in hover/details, as in the original roadmap.
+- **Browser visual QA is still required** across different screen resolutions; source/layout checks do not establish actual browser fit. At very small screens a dense chart necessarily reduces text size or sacrifices space.
+- Google Sheets now includes a **Publication Gate** tab. At this point **419 source records still have unverified lifecycle** and **439 audit rows lack verified acquisition prices**; the cost count includes archived/planned rows and may contain justified exemptions. This is an explicit release blocker.
+- Pricing/lifecycle were newly checked for 61 rows against issuer materials (mainly GIAC price roster, Microsoft, OffSec, CSA, ISACA and Palo Alto). Forty-eight currently have individually verified numeric acquisition prices; one previously estimated AAISM price was cleared because the full required pathway was not established. No estimate was silently converted from the legacy tooltip.
+- Final publication must wait until status and minimum full-pathway pricing for every active displayed credential are reviewed, documented, and reflected in both the master Sheet and JSON. Entries not independently verified stay marked unverified and must not be represented as confirmed active/current.
+- Do not merge this draft pull request just because the UI code is structurally functional; this is a **data audit and browser QA hold**.
+
+To update the local preview from this branch:
+
+```sh
+git pull origin feature/audit-driven-roadmap-v1
+python3 -m http.server 8000
+```
+
+Reload `http://localhost:8000/` with the browser cache bypassed. The page's JSON is fetched with `cache: "no-store"`.
