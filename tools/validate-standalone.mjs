@@ -13,7 +13,7 @@ assert(originalAnchors.every((m,i)=>m[1]===renderedAnchors[i][1].replace(" audit
 const longTiles=renderedAnchors.filter(m=>m[1].includes("audit-two-line"));
 assert.equal(longTiles.length,10,"Expected 10 targeted long-label tiles");
 for(const label of ["PECB 27005RM","PECB 27032CM"]){
-  assert(longTiles.some(m=>m[3].replace(/<[^>]*>/g," ").trim().replace(/\\s+/g," ")===label),
+  assert(longTiles.some(m=>m[3].replace(/<[^>]*>/g," ").trim().replace(/\s+/g," ")===label),
     "Two-line label missing: "+label);
 }
 assert(html.includes(".certcontainer a.audit-two-line > .audit-label-tail") && html.includes("font-size: .43vmax;"),
@@ -22,40 +22,33 @@ assert.equal(canon.length,487,"Canonical record total changed");
 assert.equal(new Set(canon.map(x=>x.id)).size,487);
 assert.equal((html.match(/class="tier-break"/g)||[]).length,3);
 
-/* Simulate the 47-track auto-placement used by the original foreground grid.
-   Every Network certification must land entirely inside tracks 2–4. */
-const styleSpans=Object.fromEntries(
-  [...orig.matchAll(/\.(\w+)\s*\{([\s\S]*?)\}/g)]
-    .map(m=>[m[1],Number((m[2].match(/grid-column:\s*span\s*(\d+)/)||[])[1]||1)])
-);
-const chart=html.slice(html.indexOf('<div class="certcontainer">'),html.indexOf("<!-- Find # of certs"));
-const rowMarkers=[...chart.matchAll(/<!-- Row (\d+)[^\r\n]*?-->/g)];
-assert.equal(rowMarkers.length,27,"Original grid row markers changed");
-let column=1,actualRow=1;
-const networkTiles=[];
-for(let index=0;index<rowMarkers.length;index++){
-  const row=Number(rowMarkers[index][1]);
-  if([7,14,22].includes(row)){actualRow++;column=1;}
-  const block=chart.slice(rowMarkers[index].index,rowMarkers[index+1]?.index??chart.length);
-  for(const child of block.matchAll(/<(a|div)\s+class="([^"]+)"[^>]*>/g)){
-    const className=child[2].split(" ")[0];
-    if(className==="tier-break")continue;
-    const span=styleSpans[className]||1;
-    if(column+span-1>47){actualRow++;column=1;}
-    if(className.startsWith("networkitem")){
-      networkTiles.push({row,column,last:column+span-1,span});
-      assert(column>=2 && column+span-1<=4,
-        "Network certification lies outside Communication and Network Security: source row "+row+" at track "+column);
-    }
-    column+=span;
-    if(column>47){actualRow++;column=1;}
-  }
+/* Every source row must preserve the original sequence of certification tile
+   spans and spacers: no attempt to repack or shift the foreground grid. */
+function sourceGridRows(source){
+  const fg=source.slice(source.indexOf('<div class="certcontainer">'),source.indexOf('<!-- Find # of certs'));
+  const markers=[...fg.matchAll(/<!-- Row (\d+)[^\r\n]*?-->/g)];
+  return markers.map((m,i)=>{
+    const chunk=fg.slice(m.index,markers[i+1]?.index??fg.length);
+    const sequence=[...chunk.matchAll(/<(?:div|a)\s+class="([^"]+)"/g)]
+      .map(x=>x[1].split(" ")[0])
+      .filter(x=>x==="skilllevelitem"||/^spacer(?:5|10)?$/.test(x)||/^(?:network|iam|engineer|asset|mgmt|test|software|blueops|redops)item/.test(x))
+      .map(x=>x==="skilllevelitem"?"spacer":x);
+    return {row:Number(m[1]),sequence};
+  });
 }
-assert.equal(networkTiles.length,39,"Unexpected network certification count");
-assert.equal(networkTiles.filter(tile=>tile.span===3).length,2,"Both CCIE wide tiles must remain within the domain");
+const origRows=sourceGridRows(orig),actualRows=sourceGridRows(html);
+assert.equal(origRows.length,27,"Source row marker count changed");
+assert.equal(actualRows.length,27,"Generated row marker count changed");
+for(let i=0;i<origRows.length;i++){
+  assert.equal(origRows[i].row,actualRows[i].row);
+  assert.deepEqual(actualRows[i].sequence,origRows[i].sequence,
+    "Original tiles/spacers were rearranged in row "+origRows[i].row);
+}
 assert(html.includes("font-size: .72vmax;")&&html.includes("line-height: 1.06;"),"Compact domain headings missing");
 assert(html.includes("font-size: .58vmax;"),"Enlarged subtitle typography missing");
 assert(html.includes("background-color: #e1e4e9;"),"Darker neutral subdomain shading missing");
+assert(html.includes("margin-left: -.8vmax;")&&html.includes("width: calc(100% + .8vmax);"),
+  "Network domain left-border-only extension missing");
 
 assert.equal((html.match(/class="difficulty-axis"/g)||[]).length,1,"Difficulty-axis overlay missing");
 assert.equal((html.match(/class="difficulty-band difficulty-/g)||[]).length,4,"Four difficulty bands required");
@@ -64,7 +57,7 @@ for(const [label,row] of [["expert","1 / span 6"],["advanced","8 / span 7"],["in
   assert(html.includes(".difficulty-axis .difficulty-"+label+" { grid-row: "+row+"; }"),"Wrong difficulty band placement: "+label);
 assert(html.includes(".certcontainer { top: 5.15vmax; }"),"Top title clearance missing");
 assert(html.includes(".certbg .domaintitle,") && html.includes("color: #39424c !important;"),"Neutral headings missing");
-assert(html.includes(".certbg .engsubdomain1,") && html.includes("background-color: #f2f3f5;"),"Neutral subdomain fill missing");
+assert(html.includes(".certbg .engsubdomain1,") && html.includes("background-color: #e1e4e9;"),"Neutral subdomain fill missing");
 assert(html.includes(".certbg .networkcontainer,") && html.includes("border-color: #b8bdc5;"),"Neutral domain outlines missing");
 assert(html.includes(".certcontainer a[data-credential-id] {") && html.includes("border-color: #aeb4bd;"),"Neutral certification tile borders missing");
 for(const t of ["Expert","Advanced","Intermediate","Foundation"])
@@ -82,4 +75,4 @@ assert.equal(originalDomainBlock,outputDomainBlock,"Original domain/subdomain ma
 assert(!/<script\s+[^>]*src=/.test(html));
 assert(!/fetch\(/.test(html));
 assert(!html.includes('class="controls"'),"Custom layout controls reintroduced");
-console.log("PASS: original 482 tile positions/domains preserved, 39 Network tiles within domain, compact headings, larger subtitles, centered 4-tier scale, 9 archived/duplicate hidden, no visible prices, standalone offline HTML.");
+console.log("PASS: original 482 tile positions/domains preserved, original tile/spacer placement restored, Network left border extended, compact headings, larger subtitles, centered 4-tier scale, 9 archived/duplicate hidden, no visible prices, standalone offline HTML.");
