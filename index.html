@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Audit-driven cybersecurity certification roadmap with independent proficiency and credibility scoring.">
+  <title>Security Certification Roadmap — Audit Edition</title>
+  <link rel="stylesheet" href="./assets/roadmap.css">
+  <script src="./assets/roadmap.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-copy">
+      <div class="eyebrow">Security certification roadmap · audit edition</div>
+      <h1>Security Certification Roadmap</h1>
+      <p>Four proficiency levels. One canonical credential record. Multi-domain coverage. Credibility-based colors.</p>
+    </div>
+    <div class="meta-links">
+      <span class="draft">Working audit — not a validated issuer catalog</span>
+      <a href="https://docs.google.com/spreadsheets/d/1XZurn69nC1RKBNWLdEl9hAlLsla6t-Wjhy9h7CzLVsk/edit" target="_blank" rel="noopener noreferrer">Master audit sheet</a>
+      <a href="./data/certifications.json">Canonical JSON</a>
+      <a href="./Security-Certification-Roadmap9.html">Original layout</a>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="controls" aria-label="Roadmap filters">
+      <label class="control control-search"><span>Search certifications</span><input id="search" type="search" placeholder="Name, acronym, domain, source ID…" autocomplete="off"></label>
+      <label class="control"><span>Domain</span><select id="domain-filter"><option value="">All primary domains</option></select></label>
+      <label class="control"><span>Credibility</span>
+        <select id="credibility-filter">
+          <option value="">All levels</option><option value="rated">Rated only</option><option value="unrated">Unrated only</option>
+          <option value="green">Very high (80–100)</option><option value="lightgreen">High (65–79)</option>
+          <option value="yellow">Moderate (50–64)</option><option value="orange">Low (35–49)</option>
+          <option value="red">Very low (0–34)</option>
+        </select>
+      </label>
+      <label class="control check-control"><input id="show-archived" type="checkbox"><span>Show archived / retired</span></label>
+      <button class="reset" id="reset" type="button">Reset filters</button>
+    </section>
+
+    <section class="summary" aria-live="polite">
+      <span id="count-visible">Loading records…</span>
+      <span id="count-total"></span>
+      <span id="count-rated"></span>
+      <span class="hint">Select a tile for details. Hover or focus for its full name. Scroll horizontally to view domains.</span>
+    </section>
+
+    <section class="legend" aria-label="Credibility legend">
+      <strong>Fill = credibility</strong>
+      <span class="key key-unrated">Unrated</span>
+      <span class="key key-green">80–100</span>
+      <span class="key key-lightgreen">65–79</span>
+      <span class="key key-yellow">50–64</span>
+      <span class="key key-orange">35–49</span>
+      <span class="key key-red">0–34</span>
+      <span class="small-note">Unrated does not mean low credibility. Proficiency determines vertical position only.</span>
+    </section>
+
+    <div id="chart-scroll" class="chart-scroll" tabindex="0" aria-label="Scrollable certification roadmap">
+      <div id="roadmap" class="roadmap"><p class="loading">Loading canonical certification data…</p></div>
+    </div>
+    <div id="error" class="error" hidden role="alert"></div>
+  </main>
+
+  <aside class="details" id="details" aria-labelledby="details-title" hidden>
+    <div class="details-header"><h2 id="details-title">Certification details</h2><button id="details-close" type="button" aria-label="Close details">×</button></div>
+    <div id="details-content"></div>
+  </aside>
+  <footer>
+    <p>Derived from <a href="https://github.com/PaulJerimy/SecCertRoadmapHTML" target="_blank" rel="noopener noreferrer">Paul Jerimy's Security Certification Roadmap</a> (CC BY-SA 4.0). Original source preserved. <a href="./INTEGRATION_NOTES.md">Integration notes and known limitations</a>.</p>
+    <p>Certification and price information is not independently verified for most records; consult each issuer before making purchasing or qualification decisions.</p>
+  </footer>
+</body>
+</html>
