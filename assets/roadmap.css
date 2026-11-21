@@ -105,3 +105,14 @@ footer p{margin:0}
   line-height: 1.05;
   letter-spacing: normal;
 }
+
+/* Offline-preview label policy: original-sized, regular text; no microscopic fonts. */
+.tile .abbr {
+  font-weight: 400;
+  font-size: clamp(10px, .74vw, 12px);
+  white-space: nowrap;
+  text-overflow: clip;
+}
+.tile .abbr.label-truncated {
+  text-overflow: ellipsis;
+}
