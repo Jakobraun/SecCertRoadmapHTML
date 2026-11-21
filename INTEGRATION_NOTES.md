@@ -77,3 +77,11 @@ The original source CSS assigned category-colored borders to credential tiles. A
 ## Long certification labels
 
 Labels too long for an original single-width tile (10 identified, including PECB 27005RM and PECB 27032CM) display as two centered lines. Only the second line is reduced to `0.43vmax` (with slight negative tracking); the first line retains the original font size. Tile positions, spans, domain mappings, colors and tooltip metadata remain unchanged. The build regenerates this formatting from the original source, rather than editing individual tile widths.
+
+## Network-domain and heading refinements
+
+- Recenter the two wide CCIE entries (CCIE Security and CCIE Enterprise) into the original three-column Communication and Network Security area. Only blank source spacer positions move; the other domains retain their original grid track arrangement.
+- Insert one missing blank spacer at the ends of original rows 16 and 26. The source contained 46 grid units in those rows instead of 47, which caused subsequent network tiles to start in the left-hand difficulty-axis track. The builder corrects the alignment without changing the original upstream file.
+- Reduce domain heading font size from `0.8vmax` to `0.72vmax`, with tighter `1.06` line height and a smaller bottom margin.
+- Increase subdomain subtitle font size from `0.5vmax` to `0.58vmax` and darken the neutral subdomain shading from `#f2f3f5` to `#e1e4e9`. The credibility tile colors are unchanged.
+- The validator now checks that all 39 network certification tiles occupy only foreground grid tracks 2–4.
