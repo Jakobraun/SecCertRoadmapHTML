@@ -119,6 +119,33 @@ function filtered(){
    return true;
  });
 }
+function fitViewport(){
+  if(!state.records.length)return;
+  const list=filtered(),selected=el("domain-filter").value;
+  const columns=selected?[[selected,Math.max(4,DOMAIN_UNITS.find(x=>x[0]===selected)?.[1]||6)]]:DOMAIN_UNITS;
+  let rows=0;
+  for(const tier of TIERS){
+    let max=1;
+    for(const [name,width] of columns){
+      let line=1,used=0;
+      const matches=list.filter(x=>x.proficiency===tier.id&&(selected?domainsFor(x).includes(name):domainName(x.primaryDomain)===name));
+      for(const c of matches){
+        const span=Math.min(width,Math.max(1,c.originalTileSpan||1));
+        if(used+span>width){line++;used=0;}
+        used+=span;
+      }
+      max=Math.max(max,line);
+    }
+    rows+=max;
+  }
+  const viewport=el("chart-scroll").clientHeight;
+  const heading=32;
+  const target=Math.floor((viewport-heading-10)/(rows+1));
+  const size=Math.max(12,Math.min(22,target));
+  el("roadmap").style.setProperty("--tile-height",size+"px");
+  el("roadmap").dataset.estimatedRows=String(rows);
+  el("roadmap").dataset.fitViewport=viewport>heading+rows*(size+1)?"yes":"constrained";
+}
 function render(){
   if(!state.records.length)return;
   const subset=filtered(), selected=el("domain-filter").value;
@@ -151,6 +178,7 @@ function render(){
   el("count-visible").textContent=subset.filter(c=>selected||DOMAINS.includes(domainName(c.primaryDomain))).length.toLocaleString()+" credentials on roadmap";
   el("count-total").textContent=state.records.length+" canonical / "+state.records.filter(isArchived).length+" archived";
   el("count-rated").textContent=subset.filter(c=>credibilityBand(c.credibilityScore)!=="unrated").length+" provisionally rated";
+  fitViewport();
 }
 function setupFilters(){
  const values=[...new Set(state.records.filter(c=>!c.plannedOnly).flatMap(domainsFor))].sort((a,b)=>a.localeCompare(b));
@@ -185,4 +213,5 @@ async function init(){
    el("error").textContent=error.message+". If opened via file://, serve this repository using a local HTTP server (python -m http.server).";
  }
 }
+window.addEventListener("resize",()=>{if(state.records.length)fitViewport();});
 document.addEventListener("DOMContentLoaded",init);
