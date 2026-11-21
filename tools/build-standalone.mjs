@@ -42,6 +42,19 @@ function buildOriginal(source, dataset) {
   const inheritedReplacement=rec.originalLabel==="AZ-500"?"SC-500":rec.originalLabel==="SC-400"?"SC-401":null;
   if(inheritedReplacement){const successor=credentials.find(x=>x.label===inheritedReplacement);if(successor){rec=successor;inner=inheritedReplacement;replaced++;if(rec.issuerURL&&/https?:\/\//.test(rec.issuerURL))atts=atts.replace(/href="[^"]*"/,'href="'+escapeAttr(rec.issuerURL)+'"');}}
   else if(rec.originalLabel==="CASP+")inner=inner.replace(/CASP\+/g,"SecurityX");
+  // Preserve source tile widths; typeset long labels on two centered lines.
+  // Only the second line is smaller (e.g. PECB 27005RM, PECB 27032CM).
+  const labelParts=inner.trim().split(/\s+/);
+  const narrow=cls.endsWith("item1");
+  const longSecondLine=labelParts.length>=2 &&
+    labelParts.slice(1).join(" ").length>=6 &&
+    inner.trim().replace(/<[^>]*>/g,"").length>=12;
+  if(narrow && longSecondLine && !/<[^>]+>/.test(inner) && !rec.plannedOnly){
+    const head=labelParts[0],tail=labelParts.slice(1).join(" ");
+    inner='<span class="audit-label-head">'+head+'</span>'+
+      '<span class="audit-label-tail">'+tail+'</span>';
+    cls+=' audit-two-line';
+  }
   // One canonical CIMP with two original anchors: suppress the secondary visual.
   const archive=rec.displayOnRoadmap===false || (count>0 && (rec.originalLabel||rec.label)==="CIMP");
   if(archive){hidden++;atts=addStyle(atts,"visibility:hidden;pointer-events:none;");atts=atts.replace(/tabindex="[^"]*"/,'tabindex="-1"');}
@@ -133,6 +146,32 @@ function buildOriginal(source, dataset) {
        Fill and text color remain exclusively tied to the credibility score. */
     .certcontainer a[data-credential-id] {
       border-color: #aeb4bd;
+    }
+
+    /* Preserve original tile dimensions; reduce only long second-line text. */
+    .certcontainer a.audit-two-line {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: max-content max-content;
+      justify-items: center;
+      align-content: center;
+      row-gap: 0;
+      white-space: nowrap;
+      line-height: 1;
+    }
+    .certcontainer a.audit-two-line > .audit-label-head {
+      display: block;
+      min-width: 0;
+      max-width: 100%;
+      font-size: 1em;
+      white-space: nowrap;
+    }
+    .certcontainer a.audit-two-line > .audit-label-tail {
+      display: block;
+      min-width: 0;
+      max-width: 100%;
+      font-size: .43vmax;
+      letter-spacing: -.01vmax;
+      white-space: nowrap;
     }
 
     /* Difficulty labels are vertically centered in the full height of each band. */
