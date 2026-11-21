@@ -119,6 +119,29 @@ function filtered(){
    return true;
  });
 }
+/**
+ * Each certification title stays on one line. Reset to the standard font size,
+ * then shrink ONLY labels whose rendered text exceeds their actual tile width.
+ * scrollWidth measures the entire unwrapped label with the browser's real font.
+ */
+function fitTileLabels(){
+  const labels=el("roadmap").querySelectorAll(".tile .abbr");
+  for(const label of labels){
+    label.style.fontSize="";
+    const available=label.clientWidth-1;
+    if(available<=0)continue;
+    const natural=label.scrollWidth;
+    if(natural<=available)continue;
+    let size=parseFloat(getComputedStyle(label).fontSize)*available/natural*0.99;
+    size=Math.max(1,size);
+    label.style.fontSize=size.toFixed(2)+"px";
+    // Fractional widths, font kerning and CSS rounding can leave a small overhang.
+    for(let attempt=0;attempt<36 && label.scrollWidth>available && size>1;attempt++){
+      size=Math.max(1,size*0.96);
+      label.style.fontSize=size.toFixed(2)+"px";
+    }
+  }
+}
 function fitViewport(){
   if(!state.records.length)return;
   const list=filtered(),selected=el("domain-filter").value;
@@ -145,6 +168,7 @@ function fitViewport(){
   el("roadmap").style.setProperty("--tile-height",size+"px");
   el("roadmap").dataset.estimatedRows=String(rows);
   el("roadmap").dataset.fitViewport=viewport>heading+rows*(size+1)?"yes":"constrained";
+  fitTileLabels();
 }
 function render(){
   if(!state.records.length)return;
@@ -207,6 +231,7 @@ async function init(){
    }
    state.records=data.certifications;state.metadata=data.metadata||{};
    setupFilters();render();
+   if(document.fonts?.ready)document.fonts.ready.then(fitTileLabels);
  }catch(error){
    el("roadmap").replaceChildren();
    el("error").hidden=false;
