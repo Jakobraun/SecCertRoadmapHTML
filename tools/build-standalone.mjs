@@ -70,10 +70,20 @@ function buildOriginal(source, dataset) {
    if(!s.includes(label))throw Error("Missing row marker "+startRow);
    s=s.replace(label,'<div class="tier-break" aria-hidden="true"></div>\r\n                    '+label);
  }
- const row10=/(<!-- Row 10 -->)(\\r?\\n\\s*)<div class="spacer"><\\/div>/;
+ const row10=/(<!-- Row 10 -->)(\r?\n\s*)<div class="spacer"><\/div>/;
  if(!row10.test(s))throw Error("Missing original row 10 left spacer");
  s=s.replace(row10,'$1$2<div class="skilllevelitem"><span style="color:var(--orangedk)">Advanced</span></div>');
  s=s.replace(/(<div class="skilllevelitem"><span style="color:var\(--greendk\)">)Beginner(<\/span><\/div>)/,'$1Foundation$2');
+
+ // Replace row-specific rotated difficulty labels with neutral spacers so the
+ // underlying source grid stays in exactly the same order and at the same widths.
+ const replacedLabels=(s.match(/<div class="skilllevelitem"><span style="color:var\\(--(?:reddk|orangedk|greendk)\\)">(?:Expert|Advanced|Intermediate|Foundation)<\\/span><\\/div>/g)||[]).length;
+ if(replacedLabels!==4)throw Error("Expected four original/injected difficulty labels, found "+replacedLabels);
+ s=s.replace(/<div class="skilllevelitem"><span style="color:var\\(--(?:reddk|orangedk|greendk)\\)">(?:Expert|Advanced|Intermediate|Foundation)<\\/span><\\/div>/g,
+   '<div class="spacer"></div>');
+ const difficultyMarkup="<div class=\"difficulty-axis\" aria-label=\"Difficulty levels\">\n                <div class=\"difficulty-band difficulty-expert\"><span>Expert</span></div>\n                <div class=\"difficulty-band difficulty-advanced\"><span>Advanced</span></div>\n                <div class=\"difficulty-band difficulty-intermediate\"><span>Intermediate</span></div>\n                <div class=\"difficulty-band difficulty-foundation\"><span>Foundation</span></div>\n            </div>";
+ s=s.replace('<div class="certcontainer">','<div class="certcontainer">\\r\\n            '+difficultyMarkup);
+
  // Retain all domain and subcategory display styles; override only foreground tile fill and tier gap sizing.
  const css=`
     /* Audit edition: original grid and labels, with four visibly separated levels. */
@@ -93,7 +103,66 @@ function buildOriginal(source, dataset) {
     /* The 2024 mobile bitmap was an external dependency; show the same actual chart offline. */
     #static { display:none !important; }
     #interactive { display:block !important; }
- `;
+ 
+    /* Layout refinement: separation below original subtitle row. */
+    .certcontainer { top: 5.15vmax; }
+
+    /* Neutral domain/subdomain presentation. Tile credibility fills remain untouched. */
+    .certbg .domaintitle,
+    .certbg .subtitle1,
+    .certbg .subtitle2,
+    .certbg .subtitle3,
+    .certbg .subtitle4,
+    .certbg .subtitle5 { color: #39424c !important; }
+    .certbg .networkcontainer,
+    .certbg .iamcontainer,
+    .certbg .engineercontainer,
+    .certbg .assetcontainer,
+    .certbg .mgmtcontainer,
+    .certbg .testingcontainer,
+    .certbg .softwarecontainer,
+    .certbg .operationscontainer { border-color: #b8bdc5; }
+    .certbg .engsubdomain1,
+    .certbg .engsubdomain4,
+    .certbg .mgmtsubdomain4,
+    .certbg .bluesubdomain2,
+    .certbg .redsubdomain2,
+    .certbg .redsubdomain5 { background-color: #f2f3f5; }
+
+    /* Difficulty labels are vertically centered in the full height of each band. */
+    .difficulty-axis {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1.7vmax;
+      display: grid;
+      grid-template-rows:
+        repeat(6, 1.455vmax) .4vmax
+        repeat(7, 1.455vmax) .4vmax
+        repeat(8, 1.455vmax) .4vmax
+        repeat(6, 1.455vmax);
+      row-gap: .1vmax;
+      font-size: .8vmax;
+      font-weight: 600;
+      color: #39424c;
+      pointer-events: none;
+      z-index: 1;
+    }
+    .difficulty-axis .difficulty-band {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .difficulty-axis .difficulty-band span {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      white-space: nowrap;
+    }
+    .difficulty-axis .difficulty-expert { grid-row: 1 / span 6; }
+    .difficulty-axis .difficulty-advanced { grid-row: 8 / span 7; }
+    .difficulty-axis .difficulty-intermediate { grid-row: 16 / span 8; }
+    .difficulty-axis .difficulty-foundation { grid-row: 25 / span 6; }
+`;
  s=s.replace('</style>',css+'\r\n    </style>');
  // Avoid external bitmap requests when opened from disk; the interactive chart is the source.
  s=s.replace(/<div id="static">[\s\S]*?<\/div>/,'<div id="static" hidden></div>');
