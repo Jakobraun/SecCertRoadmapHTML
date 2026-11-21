@@ -22,6 +22,7 @@ assert(html.includes(".certcontainer { top: 5.15vmax; }"),"Top title clearance m
 assert(html.includes(".certbg .domaintitle,") && html.includes("color: #39424c !important;"),"Neutral headings missing");
 assert(html.includes(".certbg .engsubdomain1,") && html.includes("background-color: #f2f3f5;"),"Neutral subdomain fill missing");
 assert(html.includes(".certbg .networkcontainer,") && html.includes("border-color: #b8bdc5;"),"Neutral domain outlines missing");
+assert(html.includes(".certcontainer a[data-credential-id] {") && html.includes("border-color: #aeb4bd;"),"Neutral certification tile borders missing");
 for(const t of ["Expert","Advanced","Intermediate","Foundation"])
   assert(html.includes(">"+t+"</span>"),"Missing tier label "+t);
 for(const t of ["Cloud/SysOps","*nix","ICS/IoT","GRC","Forensics","Incident Handling","Penetration Testing","Exploitation"])
