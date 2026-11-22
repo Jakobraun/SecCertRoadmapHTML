@@ -115,3 +115,7 @@ Labels too long for an original single-width tile (10 identified, including PECB
 - **Reverted** every change that moved blank spacer cells before or after certifications in source rows 3, 4, 16, and 26. All original grid tile/spacer sequences are retained.
 - Only the **left boundary** of the Communication and Network Security background container is extended left by `0.8vmax`. The extension keeps the right boundary in place through an equal increase in width; it does not resize or reposition foreground certification tiles.
 - The standalone validator now checks every source row's exact tile-and-spacer sequence to prevent future reflow regressions.
+
+## Sheet synchronization — November 22, 2026
+
+The latest `Certification Audit` tab was reconciled into `data/certifications.json` by stable Record ID. The 482 original tile positions remain unchanged; records deleted from the Sheet are archived and hidden while retaining their original source IDs, and 17 new Fortinet NSE records are planned-only until their tile positions are defined. Duplicate source label CIMP remains one canonical record. Column F prices are authoritative current USD amounts; blank values are preserved as null and columns G/H/S/V provide legacy context, pricing evidence, source links and audit notes. The standalone `index.html` reflects the synchronized statuses, names, visibility, and prices without displaying prices on tile faces. Credibility scoring remains provisional and the publication gate still applies.

@@ -18,8 +18,8 @@ for(const label of ["PECB 27005RM","PECB 27032CM"]){
 }
 assert(html.includes(".certcontainer a.audit-two-line > .audit-label-tail") && html.includes("font-size: .43vmax;"),
   "Small second-line font CSS missing");
-assert.equal(canon.length,487,"Canonical record total changed");
-assert.equal(new Set(canon.map(x=>x.id)).size,487);
+assert.equal(canon.length,JSON.parse(read("data/certifications.json")).metadata.canonicalCount,"Canonical record total changed");
+assert.equal(new Set(canon.map(x=>x.id)).size,canon.length);
 assert.equal((html.match(/class="tier-break"/g)||[]).length,3);
 
 /* Every source row must preserve the original sequence of certification tile

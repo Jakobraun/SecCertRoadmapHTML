@@ -3,7 +3,7 @@ import { strict as assert } from "node:assert";
 const { metadata, certifications } = JSON.parse(readFileSync(new URL("../data/certifications.json", import.meta.url),"utf8"));
 assert.equal(metadata.schemaVersion,1);
 assert.equal(metadata.rawRecordCount,482);
-assert.equal(certifications.length,487);
+assert.equal(certifications.length,metadata.canonicalCount);
 assert.equal(new Set(certifications.map(c=>c.id)).size,certifications.length);
 assert.equal(metadata.canonicalCount,certifications.length,"stale canonical count");
 assert.equal(metadata.visibleCount,certifications.filter(c=>c.displayOnRoadmap).length,"stale eligible count");
