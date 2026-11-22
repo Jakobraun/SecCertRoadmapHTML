@@ -63,6 +63,37 @@ These figures are a snapshot; the Google Sheet is authoritative for continuing r
 
 **Browser visual QA remains to be done**. Source markup and CSS fidelity checks establish preservation of layout structure, not pixel-accurate screenshots in every browser and viewport.
 
+## Lifecycle audit completed 2026-11-22
+
+All 419 previously unverified canonical records were reviewed against issuer sources:
+331 active, 23 renamed or directly replaced, 22 retired, one in abeyance, one general
+learning recommendation rather than a certification, and 41 unresolved. Checks were
+performed on November 21–22; individual check dates are retained in the data.
+
+`lifecycleEvidence`, `lifecycleEvidenceURL`, and `lifecycleCheckedAt` document every
+review, including inconclusive results. Only resolved records receive
+`lifecycleVerifiedAt`. Current issuer catalogs or published exam materials support
+active findings; checkout and exam booking were not executed. Inaccessible or
+missing pages alone were not treated as proof of retirement.
+
+Confirmed current labels and links appear on the roadmap in their existing source
+positions. Original labels, source IDs, domains, prices and duplicate handling are
+preserved. Retired, in-abeyance and non-certification entries are hidden without
+repacking the grid. The chart displays 449 credentials; four other eligible records
+remain planned additions. The two CREST source records now labelled CCRTS remain
+separate, preserving the existing source-record handling.
+
+The Google Sheet's Certification Audit lifecycle status, current official names,
+evidence URLs, notes and verification dates were synchronized, along with the
+corresponding Cost Exceptions lifecycle/name cells. Original-label and pricing
+columns were preserved. Publication Gate formulas now report 41 unverified
+lifecycles. The local active-only gate still blocks publication: 41 unverified
+lifecycles, 343 missing prices and six provisional credibility scores.
+
+The updated Sheet was inspected visually and all changed cells were read back.
+Local HTML browser preview was blocked by browser URL policy, so roadmap pixel QA
+remains outstanding; source-grid, current-label and visibility checks pass.
+
 ## Layout refinement — neutral headers and centered proficiency labels
 
 - Keep the original domain labels, subtitles, and subcategory organization, but override heading/subtitle text to neutral charcoal, domain frames to neutral gray, and subcategory background fills to very light gray. Credibility-based tile fills are **not** affected.

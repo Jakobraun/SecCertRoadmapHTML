@@ -41,7 +41,15 @@ function buildOriginal(source, dataset) {
   const count=seen.get(rec.id)||0;seen.set(rec.id,count+1);
   const inheritedReplacement=rec.originalLabel==="AZ-500"?"SC-500":rec.originalLabel==="SC-400"?"SC-401":null;
   if(inheritedReplacement){const successor=credentials.find(x=>x.label===inheritedReplacement);if(successor){rec=successor;inner=inheritedReplacement;replaced++;if(rec.issuerURL&&/https?:\/\//.test(rec.issuerURL))atts=atts.replace(/href="[^"]*"/,'href="'+escapeAttr(rec.issuerURL)+'"');}}
-  else if(rec.originalLabel==="CASP+")inner=inner.replace(/CASP\+/g,"SecurityX");
+  else if(normalize(rec.label)!==normalize(rec.originalLabel||rec.label)){
+   // Keep the original anchor as the layout/source identity, but show the
+   // audited current name rather than leaving verified renames on old labels.
+   const currentLabel=escapeAttr(rec.label);
+   inner=/<b>/.test(inner)?'<b>'+currentLabel+'</b>':currentLabel;
+   const currentURL=rec.lifecycleCurrentURL||rec.issuerURL;
+   if(currentURL&&/^https?:\/\//.test(currentURL))
+    atts=atts.replace(/href="[^"]*"/,'href="'+escapeAttr(currentURL)+'"');
+  }
   // Preserve source tile widths; typeset long labels on two centered lines.
   // Only the second line is smaller (e.g. PECB 27005RM, PECB 27032CM).
   const labelParts=inner.trim().split(/\s+/);
@@ -49,7 +57,9 @@ function buildOriginal(source, dataset) {
   const longSecondLine=labelParts.length>=2 &&
     labelParts.slice(1).join(" ").length>=6 &&
     inner.trim().replace(/<[^>]*>/g,"").length>=12;
-  if(narrow && longSecondLine && !/<[^>]+>/.test(inner) && !rec.plannedOnly){
+  const renamedLongLabel=rec.lifecycleCheckedAt && rec.status==="Active (renamed)" &&
+    labelParts.length>=2 && inner.trim().length>=9;
+  if(narrow && (longSecondLine||renamedLongLabel) && !/<[^>]+>/.test(inner) && !rec.plannedOnly){
     const head=labelParts[0],tail=labelParts.slice(1).join(" ");
     inner='<span class="audit-label-head">'+head+'</span>'+
       '<span class="audit-label-tail">'+tail+'</span>';

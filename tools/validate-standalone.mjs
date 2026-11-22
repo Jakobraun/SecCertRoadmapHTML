@@ -11,7 +11,7 @@ assert.equal(originalAnchors.length,482,"Original anchor inventory changed");
 assert.equal(renderedAnchors.length,482,"Original grid tiles lost or added");
 assert(originalAnchors.every((m,i)=>m[1]===renderedAnchors[i][1].replace(" audit-two-line","")),"Original tile class/span order changed");
 const longTiles=renderedAnchors.filter(m=>m[1].includes("audit-two-line"));
-assert.equal(longTiles.length,10,"Expected 10 targeted long-label tiles");
+assert(longTiles.length>=10,"Original long-label formatting was lost");
 for(const label of ["PECB 27005RM","PECB 27032CM"]){
   assert(longTiles.some(m=>m[3].replace(/<[^>]*>/g," ").trim().replace(/\s+/g," ")===label),
     "Two-line label missing: "+label);
@@ -65,7 +65,27 @@ for(const t of ["Expert","Advanced","Intermediate","Foundation"])
 for(const t of ["Cloud/SysOps","*nix","ICS/IoT","GRC","Forensics","Incident Handling","Penetration Testing","Exploitation"])
   assert(html.includes(t),"Missing original domain/subdomain title "+t);
 assert.equal(renderedAnchors.filter(m=>/\$\s*\d/.test(m[3])).length,0,"Price leaked onto tile faces");
-assert.equal(renderedAnchors.filter(m=>/visibility:hidden/.test(m[2])).length,9,"Unexpected retired/duplicate visibility");
+const byID=new Map(canon.map(c=>[c.id,c]));
+const displayedIDs=new Set();
+const plainLabel=markup=>markup.replace(/<[^>]*>/g," ").replace(/&amp;/g,"&").trim().replace(/\s+/g," ");
+for(const [tileIndex,tile] of renderedAnchors.entries()){
+  const id=tile[2].match(/data-credential-id="([^"]+)"/)?.[1];
+  const credential=byID.get(id);
+  assert(credential,"Unknown credential tile: "+id);
+  const hidden=/visibility:hidden/.test(tile[2]);
+  const duplicate=displayedIDs.has(id);
+  assert.equal(hidden,!credential.displayOnRoadmap||duplicate,"Wrong lifecycle/duplicate visibility: "+id);
+  if(!hidden){
+    displayedIDs.add(id);
+    const renamed=credential.label!==(credential.originalLabel||credential.label);
+    const expectedLabel=renamed||credential.replaces?credential.label:plainLabel(originalAnchors[tileIndex][3]);
+    assert.equal(plainLabel(tile[3]),expectedLabel,"Outdated roadmap label: "+id);
+  }
+}
+const expectedDisplayed=canon.filter(c=>c.displayOnRoadmap&&!c.plannedOnly);
+assert.equal(displayedIDs.size,expectedDisplayed.length,"Displayed credential count differs from canonical data");
+for(const c of expectedDisplayed)assert(displayedIDs.has(c.id),"Missing active credential: "+c.id);
+assert(html.includes(displayedIDs.size+" credentials |"),"Outdated chart footer count");
 assert.equal(renderedAnchors.filter(m=>/data-credential-id="/.test(m[2])).length,482);
 assert(renderedAnchors.some(m=>m[3].trim()==="SC-500") && !renderedAnchors.some(m=>m[3].trim()==="AZ-500"));
 assert(renderedAnchors.some(m=>m[3].trim()==="SC-401") && !renderedAnchors.some(m=>m[3].trim()==="SC-400"));
@@ -75,4 +95,4 @@ assert.equal(originalDomainBlock,outputDomainBlock,"Original domain/subdomain ma
 assert(!/<script\s+[^>]*src=/.test(html));
 assert(!/fetch\(/.test(html));
 assert(!html.includes('class="controls"'),"Custom layout controls reintroduced");
-console.log("PASS: original 482 tile positions/domains preserved, original tile/spacer placement restored, Network left border extended, compact headings, larger subtitles, centered 4-tier scale, 9 archived/duplicate hidden, no visible prices, standalone offline HTML.");
+console.log("PASS: original 482 tile positions/domains preserved, current labels and lifecycle visibility verified, "+displayedIDs.size+" displayed credentials, centered 4-tier scale, no visible prices, standalone offline HTML.");
